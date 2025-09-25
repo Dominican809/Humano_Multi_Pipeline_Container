@@ -1,0 +1,66 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4560229",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-8284E-2ACD",
+              "identity": "40211988007",
+              "passport": "2953941-0",
+              "firstname": "AMBAR CRISTINA",
+              "lastname": "NUEZ JAVIER",
+              "birthdate": "2000-09-29"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/2055/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    },
+    {
+      "factura": "4560268",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-97A17-6BA2",
+              "identity": null,
+              "passport": "3108707-0",
+              "firstname": "OSCAR ANTONIO",
+              "lastname": "GALVEZ RINCON",
+              "birthdate": "1957-03-06"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/2061/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    }
+  ]
+}

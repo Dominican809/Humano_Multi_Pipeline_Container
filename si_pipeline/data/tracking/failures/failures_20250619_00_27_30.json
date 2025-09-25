@@ -1,0 +1,231 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4323058",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 500,
+        "api_response": {
+          "error": true,
+          "message": "The Response content must be a string or object implementing __toString(), \"object\" given."
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "The Response content must be a string or object implementing __toString(), \"object\" given."
+        ]
+      }
+    },
+    {
+      "factura": "4427550",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 500,
+        "api_response": {
+          "error": true,
+          "message": [
+            "No existen tarifas disponibles para su selección",
+            "1 Asegurado",
+            "Producto Buen viaje 7 /15 / 30"
+          ]
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "No existen tarifas disponibles para su selección",
+          "1 Asegurado",
+          "Producto Buen viaje 7 /15 / 30"
+        ]
+      }
+    },
+    {
+      "factura": "4458830",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 2,
+      "error_details": {
+        "status_code": 500,
+        "api_response": {
+          "error": true,
+          "message": "The Response content must be a string or object implementing __toString(), \"object\" given."
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "The Response content must be a string or object implementing __toString(), \"object\" given."
+        ]
+      }
+    },
+    {
+      "factura": "4372827",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 500,
+        "api_response": {
+          "error": true,
+          "message": [
+            "No existen tarifas disponibles para su selección",
+            "1 Asegurado",
+            "Producto Buen viaje 7 /15 / 30"
+          ]
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "No existen tarifas disponibles para su selección",
+          "1 Asegurado",
+          "Producto Buen viaje 7 /15 / 30"
+        ]
+      }
+    },
+    {
+      "factura": "4427477",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 500,
+        "api_response": {
+          "error": true,
+          "message": "The Response content must be a string or object implementing __toString(), \"object\" given."
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "The Response content must be a string or object implementing __toString(), \"object\" given."
+        ]
+      }
+    },
+    {
+      "factura": "4428987",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 2,
+      "error_details": {
+        "status_code": 500,
+        "api_response": {
+          "error": true,
+          "message": [
+            "No existen tarifas disponibles para su selección",
+            "2 asegurados",
+            "Producto Buen viaje 7 /15 / 30"
+          ]
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "No existen tarifas disponibles para su selección",
+          "2 asegurados",
+          "Producto Buen viaje 7 /15 / 30"
+        ]
+      }
+    },
+    {
+      "factura": "4377029",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 2,
+      "error_details": {
+        "status_code": 500,
+        "api_response": {
+          "error": true,
+          "message": [
+            "No existen tarifas disponibles para su selección",
+            "2 asegurados",
+            "Producto Buen viaje 7 /15 / 30"
+          ]
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "No existen tarifas disponibles para su selección",
+          "2 asegurados",
+          "Producto Buen viaje 7 /15 / 30"
+        ]
+      }
+    },
+    {
+      "factura": "4384196",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 500,
+        "api_response": {
+          "error": true,
+          "message": "The Response content must be a string or object implementing __toString(), \"object\" given."
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "The Response content must be a string or object implementing __toString(), \"object\" given."
+        ]
+      }
+    },
+    {
+      "factura": "4377012",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 500,
+        "api_response": {
+          "error": true,
+          "message": [
+            "No existen tarifas disponibles para su selección",
+            "1 Asegurado",
+            "Producto Buen viaje 7 /15 / 30"
+          ]
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "No existen tarifas disponibles para su selección",
+          "1 Asegurado",
+          "Producto Buen viaje 7 /15 / 30"
+        ]
+      }
+    },
+    {
+      "factura": "4326270",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 22,
+      "error_details": {
+        "status_code": 415,
+        "api_response": {
+          "error": true,
+          "message": {
+            "insured": [
+              "Arreglo de asegurados es inválido"
+            ]
+          }
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "insured: Arreglo de asegurados es inválido"
+        ]
+      }
+    },
+    {
+      "factura": "4376796",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 500,
+        "api_response": {
+          "error": true,
+          "message": [
+            "No existen tarifas disponibles para su selección",
+            "1 Asegurado",
+            "Producto Buen viaje 7 /15 / 30"
+          ]
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "No existen tarifas disponibles para su selección",
+          "1 Asegurado",
+          "Producto Buen viaje 7 /15 / 30"
+        ]
+      }
+    }
+  ]
+}

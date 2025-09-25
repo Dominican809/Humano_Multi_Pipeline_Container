@@ -1,0 +1,67 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "202507162316",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 291,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-485FC-7F84",
+              "identity": "00113825988",
+              "passport": "3077396-0",
+              "firstname": "AMBAR TAINA",
+              "lastname": "HERNANDEZ MALENA",
+              "birthdate": "1980-04-25"
+            },
+            {
+              "ticket_id": "HUM-485FC-7F84",
+              "identity": "00115516908",
+              "passport": "874812-1",
+              "firstname": "AMELIA",
+              "lastname": "MELLA LORA",
+              "birthdate": "1982-04-06"
+            },
+            {
+              "ticket_id": "HUM-485FC-7F84",
+              "identity": null,
+              "passport": "874812-2",
+              "firstname": "EVA",
+              "lastname": "ACOSTA MELLA",
+              "birthdate": "2013-07-08"
+            },
+            {
+              "ticket_id": "HUM-485FC-7F84",
+              "identity": null,
+              "passport": "874812-3",
+              "firstname": "NICOLAS",
+              "lastname": "ACOSTA MELLA",
+              "birthdate": "2015-04-01"
+            },
+            {
+              "ticket_id": "HUM-485FC-7F84",
+              "identity": "00112586995",
+              "passport": "874812-0",
+              "firstname": "RAFAEL JOSE",
+              "lastname": "ACOSTA PEREZ",
+              "birthdate": "1979-07-09"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/1682/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    }
+  ]
+}

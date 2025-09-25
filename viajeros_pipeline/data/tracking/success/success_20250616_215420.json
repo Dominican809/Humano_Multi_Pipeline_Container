@@ -1,0 +1,1554 @@
+{
+  "emisiones_exitosas": [
+    {
+      "factura": "4324415",
+      "tickets": [
+        {
+          "id": "HUM-86B95-9499",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324416",
+      "tickets": [
+        {
+          "id": "HUM-DCF46-39E9",
+          "cantidad": 3
+        }
+      ],
+      "total_asegurados": 3
+    },
+    {
+      "factura": "4324434",
+      "tickets": [
+        {
+          "id": "HUM-CC47A-FFAC",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324454",
+      "tickets": [
+        {
+          "id": "HUM-61BDE-2FC7",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324491",
+      "tickets": [
+        {
+          "id": "HUM-A8937-78C1",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4324501",
+      "tickets": [
+        {
+          "id": "HUM-7D322-6862",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324515",
+      "tickets": [
+        {
+          "id": "HUM-B9915-2B0C",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324522",
+      "tickets": [
+        {
+          "id": "HUM-0C310-43A2",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324535",
+      "tickets": [
+        {
+          "id": "HUM-E8FEB-B751",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324538",
+      "tickets": [
+        {
+          "id": "HUM-9B1E0-65DE",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324543",
+      "tickets": [
+        {
+          "id": "HUM-5AC98-7729",
+          "cantidad": 4
+        }
+      ],
+      "total_asegurados": 4
+    },
+    {
+      "factura": "4324557",
+      "tickets": [
+        {
+          "id": "HUM-9A3C9-3D9A",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324606",
+      "tickets": [
+        {
+          "id": "HUM-8926F-117A",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324669",
+      "tickets": [
+        {
+          "id": "HUM-71C0F-A13D",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324712",
+      "tickets": [
+        {
+          "id": "HUM-F40A8-6AF4",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324713",
+      "tickets": [
+        {
+          "id": "HUM-D0D5C-297E",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324723",
+      "tickets": [
+        {
+          "id": "HUM-F55AF-F7A3",
+          "cantidad": 11
+        }
+      ],
+      "total_asegurados": 11
+    },
+    {
+      "factura": "4324743",
+      "tickets": [
+        {
+          "id": "HUM-2E44B-8AF3",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324755",
+      "tickets": [
+        {
+          "id": "HUM-69D81-B07B",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324789",
+      "tickets": [
+        {
+          "id": "HUM-9F9E0-0F81",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4324820",
+      "tickets": [
+        {
+          "id": "HUM-BF562-A2B9",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324824",
+      "tickets": [
+        {
+          "id": "HUM-05502-7036",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324825",
+      "tickets": [
+        {
+          "id": "HUM-4EF52-C5FA",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324833",
+      "tickets": [
+        {
+          "id": "HUM-5BDA7-FC2F",
+          "cantidad": 3
+        }
+      ],
+      "total_asegurados": 3
+    },
+    {
+      "factura": "4324847",
+      "tickets": [
+        {
+          "id": "HUM-F0871-6BD7",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324853",
+      "tickets": [
+        {
+          "id": "HUM-07C71-D94E",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324856",
+      "tickets": [
+        {
+          "id": "HUM-575A0-2C31",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324866",
+      "tickets": [
+        {
+          "id": "HUM-DE83D-BC24",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324873",
+      "tickets": [
+        {
+          "id": "HUM-D2A55-7E56",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324896",
+      "tickets": [
+        {
+          "id": "HUM-FC0D2-4944",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4324902",
+      "tickets": [
+        {
+          "id": "HUM-66E14-4934",
+          "cantidad": 12
+        }
+      ],
+      "total_asegurados": 12
+    },
+    {
+      "factura": "4324907",
+      "tickets": [
+        {
+          "id": "HUM-56E22-F5EC",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324908",
+      "tickets": [
+        {
+          "id": "HUM-B5CA8-B846",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324926",
+      "tickets": [
+        {
+          "id": "HUM-E9008-0D1E",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324937",
+      "tickets": [
+        {
+          "id": "HUM-0F85A-1299",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324950",
+      "tickets": [
+        {
+          "id": "HUM-9F32C-9C48",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324951",
+      "tickets": [
+        {
+          "id": "HUM-3A852-E5D2",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324976",
+      "tickets": [
+        {
+          "id": "HUM-057A3-304F",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4324996",
+      "tickets": [
+        {
+          "id": "HUM-713C1-E2E1",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4324997",
+      "tickets": [
+        {
+          "id": "HUM-F1201-EAE2",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325014",
+      "tickets": [
+        {
+          "id": "HUM-02057-BCB4",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325016",
+      "tickets": [
+        {
+          "id": "HUM-17AAD-5406",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325019",
+      "tickets": [
+        {
+          "id": "HUM-E3070-EC3D",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325020",
+      "tickets": [
+        {
+          "id": "HUM-B9C33-96DB",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325022",
+      "tickets": [
+        {
+          "id": "HUM-F24C0-6965",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325024",
+      "tickets": [
+        {
+          "id": "HUM-C9103-3A7F",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325026",
+      "tickets": [
+        {
+          "id": "HUM-5AE94-38FE",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325032",
+      "tickets": [
+        {
+          "id": "HUM-8F7C8-4270",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325033",
+      "tickets": [
+        {
+          "id": "HUM-6BD9D-9606",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325045",
+      "tickets": [
+        {
+          "id": "HUM-72C2D-53CB",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325060",
+      "tickets": [
+        {
+          "id": "HUM-88196-9071",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325083",
+      "tickets": [
+        {
+          "id": "HUM-EA27B-6EF9",
+          "cantidad": 5
+        }
+      ],
+      "total_asegurados": 5
+    },
+    {
+      "factura": "4325088",
+      "tickets": [
+        {
+          "id": "HUM-A57BD-5393",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325136",
+      "tickets": [
+        {
+          "id": "HUM-8DFBE-C672",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325157",
+      "tickets": [
+        {
+          "id": "HUM-B04A1-6734",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325160",
+      "tickets": [
+        {
+          "id": "HUM-AF3E1-2BDB",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325164",
+      "tickets": [
+        {
+          "id": "HUM-35359-3C83",
+          "cantidad": 4
+        }
+      ],
+      "total_asegurados": 4
+    },
+    {
+      "factura": "4325167",
+      "tickets": [
+        {
+          "id": "HUM-13105-98BF",
+          "cantidad": 3
+        }
+      ],
+      "total_asegurados": 3
+    },
+    {
+      "factura": "4325177",
+      "tickets": [
+        {
+          "id": "HUM-B2D1A-39CF",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325181",
+      "tickets": [
+        {
+          "id": "HUM-558F2-7F91",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325185",
+      "tickets": [
+        {
+          "id": "HUM-CC1C2-BF7F",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325187",
+      "tickets": [
+        {
+          "id": "HUM-7050F-9614",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325189",
+      "tickets": [
+        {
+          "id": "HUM-07729-FFBA",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325190",
+      "tickets": [
+        {
+          "id": "HUM-B5D0B-B485",
+          "cantidad": 3
+        }
+      ],
+      "total_asegurados": 3
+    },
+    {
+      "factura": "4325197",
+      "tickets": [
+        {
+          "id": "HUM-5E4E4-EAB2",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325201",
+      "tickets": [
+        {
+          "id": "HUM-B70B7-9390",
+          "cantidad": 4
+        }
+      ],
+      "total_asegurados": 4
+    },
+    {
+      "factura": "4325209",
+      "tickets": [
+        {
+          "id": "HUM-4EBEB-54BA",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325216",
+      "tickets": [
+        {
+          "id": "HUM-46E0B-5CA6",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325224",
+      "tickets": [
+        {
+          "id": "HUM-58DED-73EE",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325225",
+      "tickets": [
+        {
+          "id": "HUM-85459-8A81",
+          "cantidad": 3
+        }
+      ],
+      "total_asegurados": 3
+    },
+    {
+      "factura": "4325226",
+      "tickets": [
+        {
+          "id": "HUM-30211-C539",
+          "cantidad": 3
+        }
+      ],
+      "total_asegurados": 3
+    },
+    {
+      "factura": "4325229",
+      "tickets": [
+        {
+          "id": "HUM-6C219-69B7",
+          "cantidad": 3
+        }
+      ],
+      "total_asegurados": 3
+    },
+    {
+      "factura": "4325244",
+      "tickets": [
+        {
+          "id": "HUM-C92A6-0546",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325250",
+      "tickets": [
+        {
+          "id": "HUM-61059-3D8A",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325256",
+      "tickets": [
+        {
+          "id": "HUM-88013-2337",
+          "cantidad": 4
+        }
+      ],
+      "total_asegurados": 4
+    },
+    {
+      "factura": "4325263",
+      "tickets": [
+        {
+          "id": "HUM-5BF3C-7579",
+          "cantidad": 4
+        }
+      ],
+      "total_asegurados": 4
+    },
+    {
+      "factura": "4325265",
+      "tickets": [
+        {
+          "id": "HUM-CF56F-E55B",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325274",
+      "tickets": [
+        {
+          "id": "HUM-FC60A-09A9",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325285",
+      "tickets": [
+        {
+          "id": "HUM-79FCA-C7F6",
+          "cantidad": 3
+        }
+      ],
+      "total_asegurados": 3
+    },
+    {
+      "factura": "4325288",
+      "tickets": [
+        {
+          "id": "HUM-A8F06-D062",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325289",
+      "tickets": [
+        {
+          "id": "HUM-26B46-7107",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325290",
+      "tickets": [
+        {
+          "id": "HUM-59FBC-2F07",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325304",
+      "tickets": [
+        {
+          "id": "HUM-B84B8-61E5",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325306",
+      "tickets": [
+        {
+          "id": "HUM-8BBBF-2BAB",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325314",
+      "tickets": [
+        {
+          "id": "HUM-94E5F-6CF9",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325322",
+      "tickets": [
+        {
+          "id": "HUM-A3A14-B92B",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325337",
+      "tickets": [
+        {
+          "id": "HUM-07571-6889",
+          "cantidad": 4
+        }
+      ],
+      "total_asegurados": 4
+    },
+    {
+      "factura": "4325341",
+      "tickets": [
+        {
+          "id": "HUM-C2D79-023C",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325351",
+      "tickets": [
+        {
+          "id": "HUM-E8DD8-8B7B",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325353",
+      "tickets": [
+        {
+          "id": "HUM-DACA9-6725",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325355",
+      "tickets": [
+        {
+          "id": "HUM-AA847-ACBA",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325359",
+      "tickets": [
+        {
+          "id": "HUM-FD985-7FB4",
+          "cantidad": 5
+        }
+      ],
+      "total_asegurados": 5
+    },
+    {
+      "factura": "4325372",
+      "tickets": [
+        {
+          "id": "HUM-71F49-5A0B",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325376",
+      "tickets": [
+        {
+          "id": "HUM-792EC-DC19",
+          "cantidad": 3
+        }
+      ],
+      "total_asegurados": 3
+    },
+    {
+      "factura": "4325393",
+      "tickets": [
+        {
+          "id": "HUM-C673D-4578",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325398",
+      "tickets": [
+        {
+          "id": "HUM-B5CD8-A8E0",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325401",
+      "tickets": [
+        {
+          "id": "HUM-2B93A-7BE0",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325402",
+      "tickets": [
+        {
+          "id": "HUM-4B34E-F79B",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325404",
+      "tickets": [
+        {
+          "id": "HUM-928D6-4655",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325405",
+      "tickets": [
+        {
+          "id": "HUM-CAF1D-8445",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325407",
+      "tickets": [
+        {
+          "id": "HUM-0DD28-6C9D",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325411",
+      "tickets": [
+        {
+          "id": "HUM-8FB49-10BC",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325433",
+      "tickets": [
+        {
+          "id": "HUM-CE55C-B29D",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325436",
+      "tickets": [
+        {
+          "id": "HUM-694AA-8CA6",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325439",
+      "tickets": [
+        {
+          "id": "HUM-6C1A9-78A4",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325445",
+      "tickets": [
+        {
+          "id": "HUM-4AC2D-1F59",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325448",
+      "tickets": [
+        {
+          "id": "HUM-3A690-9E2B",
+          "cantidad": 3
+        }
+      ],
+      "total_asegurados": 3
+    },
+    {
+      "factura": "4325457",
+      "tickets": [
+        {
+          "id": "HUM-4C7B8-8A4A",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325470",
+      "tickets": [
+        {
+          "id": "HUM-62AB8-6BD5",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325472",
+      "tickets": [
+        {
+          "id": "HUM-C224E-C903",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325474",
+      "tickets": [
+        {
+          "id": "HUM-4F7E9-9CCB",
+          "cantidad": 4
+        }
+      ],
+      "total_asegurados": 4
+    },
+    {
+      "factura": "4325475",
+      "tickets": [
+        {
+          "id": "HUM-2F9A5-015C",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325476",
+      "tickets": [
+        {
+          "id": "HUM-860A9-1014",
+          "cantidad": 3
+        }
+      ],
+      "total_asegurados": 3
+    },
+    {
+      "factura": "4325477",
+      "tickets": [
+        {
+          "id": "HUM-215AB-728A",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325479",
+      "tickets": [
+        {
+          "id": "HUM-B5336-F92A",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325482",
+      "tickets": [
+        {
+          "id": "HUM-BF7C4-CDCE",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325483",
+      "tickets": [
+        {
+          "id": "HUM-BA688-ADD8",
+          "cantidad": 6
+        }
+      ],
+      "total_asegurados": 6
+    },
+    {
+      "factura": "4325484",
+      "tickets": [
+        {
+          "id": "HUM-4F220-1A43",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325496",
+      "tickets": [
+        {
+          "id": "HUM-DE877-981C",
+          "cantidad": 4
+        }
+      ],
+      "total_asegurados": 4
+    },
+    {
+      "factura": "4325499",
+      "tickets": [
+        {
+          "id": "HUM-95D0E-5414",
+          "cantidad": 3
+        }
+      ],
+      "total_asegurados": 3
+    },
+    {
+      "factura": "4325503",
+      "tickets": [
+        {
+          "id": "HUM-93CC8-1693",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325519",
+      "tickets": [
+        {
+          "id": "HUM-158A3-E9F2",
+          "cantidad": 3
+        }
+      ],
+      "total_asegurados": 3
+    },
+    {
+      "factura": "4325521",
+      "tickets": [
+        {
+          "id": "HUM-FC500-01A8",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325524",
+      "tickets": [
+        {
+          "id": "HUM-0B8A6-BB96",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325525",
+      "tickets": [
+        {
+          "id": "HUM-56F45-479C",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325527",
+      "tickets": [
+        {
+          "id": "HUM-E04CC-1F97",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325530",
+      "tickets": [
+        {
+          "id": "HUM-BA75D-4608",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325532",
+      "tickets": [
+        {
+          "id": "HUM-F9508-4639",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325534",
+      "tickets": [
+        {
+          "id": "HUM-934CA-C285",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325535",
+      "tickets": [
+        {
+          "id": "HUM-2170F-5C66",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325536",
+      "tickets": [
+        {
+          "id": "HUM-3F130-F881",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325538",
+      "tickets": [
+        {
+          "id": "HUM-61843-9A2A",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325539",
+      "tickets": [
+        {
+          "id": "HUM-AA974-E6E8",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325540",
+      "tickets": [
+        {
+          "id": "HUM-0B4D9-0CE0",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325541",
+      "tickets": [
+        {
+          "id": "HUM-9B5A5-CBAF",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325542",
+      "tickets": [
+        {
+          "id": "HUM-21398-304E",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325543",
+      "tickets": [
+        {
+          "id": "HUM-3FE92-BF45",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325550",
+      "tickets": [
+        {
+          "id": "HUM-6C449-766D",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325551",
+      "tickets": [
+        {
+          "id": "HUM-031B7-B8A9",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325554",
+      "tickets": [
+        {
+          "id": "HUM-3702F-1DAF",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325581",
+      "tickets": [
+        {
+          "id": "HUM-84EB0-C4D0",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325582",
+      "tickets": [
+        {
+          "id": "HUM-585A6-A9E4",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325587",
+      "tickets": [
+        {
+          "id": "HUM-E1886-0CD6",
+          "cantidad": 4
+        }
+      ],
+      "total_asegurados": 4
+    },
+    {
+      "factura": "4325591",
+      "tickets": [
+        {
+          "id": "HUM-44C52-8295",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325593",
+      "tickets": [
+        {
+          "id": "HUM-CB31F-DA14",
+          "cantidad": 5
+        }
+      ],
+      "total_asegurados": 5
+    },
+    {
+      "factura": "4325595",
+      "tickets": [
+        {
+          "id": "HUM-7C675-3E66",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325601",
+      "tickets": [
+        {
+          "id": "HUM-7D66D-82F9",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325654",
+      "tickets": [
+        {
+          "id": "HUM-DDAE4-2ECE",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325790",
+      "tickets": [
+        {
+          "id": "HUM-5CB02-7AAB",
+          "cantidad": 2
+        }
+      ],
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4325792",
+      "tickets": [
+        {
+          "id": "HUM-BA469-6158",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4325913",
+      "tickets": [
+        {
+          "id": "HUM-2B21F-AF2E",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4326260",
+      "tickets": [
+        {
+          "id": "HUM-AF9DE-5D52",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4326264",
+      "tickets": [
+        {
+          "id": "HUM-9917C-5C21",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4326270",
+      "tickets": [
+        {
+          "id": "HUM-92425-ACAC",
+          "cantidad": 22
+        }
+      ],
+      "total_asegurados": 22
+    },
+    {
+      "factura": "4326279",
+      "tickets": [
+        {
+          "id": "HUM-54E7B-222B",
+          "cantidad": 1
+        }
+      ],
+      "total_asegurados": 1
+    }
+  ]
+}

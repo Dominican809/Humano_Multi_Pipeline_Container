@@ -1,0 +1,67 @@
+services:
+  humano-multi-pipeline:
+    build: .
+    container_name: humano-multi-pipeline
+    restart: unless-stopped
+    environment:
+      # IMAP Configuration
+      IMAP_HOST: "${IMAP_HOST}"
+      IMAP_USER: "${IMAP_USER}"
+      IMAP_PASS: "${IMAP_PASS}"
+      IMAP_FOLDER: "${IMAP_FOLDER:-INBOX}"
+      IMAP_SSL: "${IMAP_SSL:-true}"
+      IMAP_PORT: "${IMAP_PORT:-993}"
+      
+      # Email Filtering (Updated to match both Viajeros and SI)
+      MATCH_SUBJECT_REGEX: "${MATCH_SUBJECT_REGEX:-(?i)^asegurados (viajeros|salud internacional)\\s*\\|\\s*\\d{4}-\\d{2}-\\d{2}$}"
+      MATCH_FROM_REGEX: "${MATCH_FROM_REGEX:-(?i)notificacionesinteligenciatecnicaSI@humano\\.com\\.do}"
+      
+      # Time Restrictions
+      ALLOWED_HOURS: "${ALLOWED_HOURS:-08-20}"
+      ALLOWED_DAYS: "${ALLOWED_DAYS:-mon,tue,wed,thu,fri,sat,sun}"
+      TZ: "${TZ:-America/Santo_Domingo}"
+      
+      # Pipeline Configuration
+      POLL_INTERVAL_SEC: "${POLL_INTERVAL_SEC:-0}"
+      STATE_DB: "/state/processed.sqlite3"
+      AUTOMATED_MODE: "true"
+      
+      # Goval API Configuration
+      GOVAL_API_URL: "${GOVAL_API_URL:-https://humano.goval-tpa.com/api}"
+      USUARIO: "${USUARIO}"
+      PASSWORD: "${PASSWORD}"
+      RESEND_API_KEY: "${RESEND_API_KEY}"
+      
+    volumes:
+      # Persistent state for email deduplication
+      - ./shared/database/state:/state
+      # Mount Excel files directory (writable for updates)
+      - ./viajeros_pipeline/Exceles:/app/viajeros_pipeline/Exceles
+      - ./si_pipeline/Comparador_Humano/exceles:/app/si_pipeline/Comparador_Humano/exceles
+      # Mount logs directory
+      - ./shared/logs:/app/logs
+      # Mount data directory for outputs
+      - ./viajeros_pipeline/data:/app/viajeros_pipeline/data
+      - ./si_pipeline/data:/app/si_pipeline/data
+      
+    healthcheck:
+      test: ["CMD", "python", "/app/email_watcher/health_check.py"]
+      interval: 300s  # Check every 5 minutes
+      timeout: 30s
+      retries: 2  # Allow 2 retries before marking as unhealthy
+      start_period: 120s  # Wait 2 minutes for startup
+      
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+          cpus: '1.0'
+        reservations:
+          memory: 512M
+          cpus: '0.5'
+          
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

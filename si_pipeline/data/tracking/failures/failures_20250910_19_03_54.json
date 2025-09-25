@@ -1,0 +1,35 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "202509101903",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 7,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "00100743806",
+              "passport": "3080324-0",
+              "firstname": "PEDRO ANTONIO",
+              "lastname": "TEJADA CANDELIER",
+              "birthdate": "1955-09-23"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/2629/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    }
+  ]
+}

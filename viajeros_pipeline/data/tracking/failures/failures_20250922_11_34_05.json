@@ -1,0 +1,43 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4637044",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 2,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-DED74-1048",
+              "identity": "40222005692",
+              "passport": "9189332-4",
+              "firstname": "CHRISTABEL MAGNOLIA",
+              "lastname": "RODRIGUEZ RODRIGUEZ",
+              "birthdate": "1993-10-28"
+            },
+            {
+              "ticket_id": "HUM-DED74-1048",
+              "identity": null,
+              "passport": "9189332-0",
+              "firstname": "IVAN DE JESUS",
+              "lastname": "GONZALEZ BAUTISTA",
+              "birthdate": "1984-02-05"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/2839/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    }
+  ]
+}

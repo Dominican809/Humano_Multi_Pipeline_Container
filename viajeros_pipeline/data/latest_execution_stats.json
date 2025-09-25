@@ -1,0 +1,15 @@
+{
+  "run_id": "20250925_10_16_45",
+  "emisiones": {
+    "total": 4,
+    "exitosas": 4,
+    "fallidas": 0
+  },
+  "asegurados": {
+    "total": 0,
+    "exitosos": 0,
+    "fallidos": 0
+  },
+  "errores_por_tipo": {},
+  "codigos_validacion": {}
+}

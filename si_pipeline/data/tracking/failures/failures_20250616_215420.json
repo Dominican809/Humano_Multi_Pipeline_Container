@@ -1,0 +1,4018 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4326293",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4326296",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326301",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4326302",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326313",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326315",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4326318",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326328",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4326329",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326336",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 5
+    },
+    {
+      "factura": "4326348",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326361",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326363",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4326364",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4326367",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326370",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326371",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326372",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326373",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4326377",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326382",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 6
+    },
+    {
+      "factura": "4326383",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 6
+    },
+    {
+      "factura": "4326391",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4326401",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326406",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4326472",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326473",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4326474",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326478",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326480",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326483",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326488",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326491",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326495",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326500",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326505",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326512",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4326528",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4326530",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4326541",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4326542",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4326543",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4332566",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332581",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332586",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4332589",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4332593",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332595",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332597",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332598",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332599",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332609",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332611",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332613",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332616",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332619",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332620",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332621",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332622",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332625",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4332627",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332630",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332632",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332633",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332640",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332653",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332657",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332680",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332687",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4332689",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332697",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4332705",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332707",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4332732",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4332734",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332741",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4332751",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332753",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332756",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332762",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332764",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332768",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332770",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332780",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4332782",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332783",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332785",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4332787",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332791",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332792",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332795",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332801",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332805",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332806",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4332812",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332814",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4332817",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332819",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4332820",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 5
+    },
+    {
+      "factura": "4332821",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332824",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332828",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332830",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332831",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332833",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332839",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4332841",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332842",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332847",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4332849",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4332858",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332862",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4332863",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332866",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332870",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332874",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332876",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332878",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332880",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332885",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332886",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332888",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332889",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332917",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332922",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332925",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332926",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4332929",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332932",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332936",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332937",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332938",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 5
+    },
+    {
+      "factura": "4332939",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332941",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4332942",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4332950",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333031",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333032",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333034",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333038",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333040",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333041",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333042",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333044",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333046",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333049",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333050",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333058",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333063",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333065",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333070",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333072",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333073",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333075",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333076",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333078",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333316",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333321",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333323",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333325",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4333326",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333327",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 6
+    },
+    {
+      "factura": "4333328",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333330",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333342",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333359",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333360",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333380",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333384",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333388",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333392",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333399",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333400",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333401",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333405",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333427",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333430",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333432",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4333436",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4333437",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4333464",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333471",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333486",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4333491",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333494",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333496",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333497",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333498",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333499",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333500",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333501",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333502",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333503",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333508",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333516",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333518",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333520",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333522",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333526",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 6
+    },
+    {
+      "factura": "4333529",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4333540",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333555",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333571",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4333577",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333578",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333580",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333581",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4333582",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333585",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4333587",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333593",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4333594",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 5
+    },
+    {
+      "factura": "4333595",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333597",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333599",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4333600",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333601",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333602",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4333605",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333611",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333620",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333622",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333629",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4333688",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333695",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333705",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333708",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333712",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333716",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333721",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333722",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4333727",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333732",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333737",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333744",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333758",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4333759",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 5
+    },
+    {
+      "factura": "4333763",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4333767",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4333974",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 5
+    },
+    {
+      "factura": "4340534",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 5
+    },
+    {
+      "factura": "4340930",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4345245",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4347545",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4347751",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4348299",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4354234",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4354262",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4354263",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354265",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4354266",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354268",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4354274",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4354280",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354346",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4354363",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354378",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354389",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354394",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354400",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4354401",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4354408",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354421",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354422",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4354434",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354450",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354452",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4354453",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354454",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354455",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354456",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354457",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354461",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4354463",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354464",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4354468",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 5
+    },
+    {
+      "factura": "4354470",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354471",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354475",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354485",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354488",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354491",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354498",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354507",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354510",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4354512",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354514",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354518",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354525",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354534",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4354540",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354561",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354583",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354599",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354604",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354605",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4354606",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4354607",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354608",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354610",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354611",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354612",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354617",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4354630",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4354632",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4354648",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4357775",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4359304",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4359532",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4359579",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4367776",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4371666",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371667",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371671",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371672",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4371673",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371674",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371675",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371676",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371677",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371678",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371720",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371726",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371727",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371728",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371729",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371734",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371751",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4371757",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371758",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371813",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4371823",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371824",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371826",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371827",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4371832",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4371839",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372008",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4372011",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372013",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372024",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372031",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4372049",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372057",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372071",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372073",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372074",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372087",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372099",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372193",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4372194",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372216",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4372226",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372229",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372233",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372236",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4372246",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4372247",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372770",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372784",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372787",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372790",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372792",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4372793",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372794",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372796",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372797",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372799",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372800",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372819",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372821",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372822",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372823",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4372824",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372825",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372826",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372827",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4372837",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4373075",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373077",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4373086",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4373087",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4373090",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373137",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373141",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373158",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373177",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4373180",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373185",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373191",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373400",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373405",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373412",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373505",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373516",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373517",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373759",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373764",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373767",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373775",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373782",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373784",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373786",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373789",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4373801",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4373852",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373859",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373861",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373862",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373864",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373882",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373910",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4373989",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374027",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374028",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374029",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374044",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4374045",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374049",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374053",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4374055",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374061",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374093",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374096",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374109",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374113",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374116",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374119",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374123",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4374124",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374125",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374340",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4374362",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4374370",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4374374",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374376",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374377",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374382",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374394",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374398",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374408",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374410",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374583",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374686",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374693",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374926",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374930",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374932",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374952",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374966",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4374968",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374975",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374976",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374977",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4374979",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4374998",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375002",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375003",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375007",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375016",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375024",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375025",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375047",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375048",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375049",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375050",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375052",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375055",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375056",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375057",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375062",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375131",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375133",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375165",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375188",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375192",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375196",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375198",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375200",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375202",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375211",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375216",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375223",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375236",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4375238",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375250",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375252",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375269",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375271",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375273",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375303",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375305",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375310",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375312",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375314",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375316",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375333",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375334",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375336",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375337",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375338",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375344",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375346",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4375353",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4375356",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375357",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375358",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375359",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375362",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375371",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375374",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375376",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375390",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4375392",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375399",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375402",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375411",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375432",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375445",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375511",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375514",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375526",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375535",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375548",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375549",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375553",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375568",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375575",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375577",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375583",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375588",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375590",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4375617",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375624",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375653",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375682",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4375686",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375705",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 5
+    },
+    {
+      "factura": "4375710",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375718",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375727",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375728",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375729",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375739",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375807",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375833",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375859",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375866",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375883",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375890",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375895",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375899",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375902",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375911",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375970",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375971",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375972",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375975",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375976",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4375977",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375994",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375997",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4375998",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4375999",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376000",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4376001",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376005",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4376015",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4376020",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4376042",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376043",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4376059",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4376100",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4376124",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376143",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4376156",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376158",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376229",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4376622",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4376637",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4376643",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4376650",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4376694",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4376696",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376697",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376703",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376707",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376709",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376710",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376711",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376712",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376714",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376716",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376736",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376748",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376753",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376755",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376766",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376783",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376787",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376792",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376795",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4376796",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376803",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376832",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376864",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376866",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4376869",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4376877",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 5
+    },
+    {
+      "factura": "4376883",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4376906",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376909",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376917",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4376929",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376934",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376936",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376939",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376940",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4376942",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4376943",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376970",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4376974",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376977",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376981",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376984",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376986",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376992",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376995",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376996",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376997",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4376998",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377001",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377002",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4377003",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4377005",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377006",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377007",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377008",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377009",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377010",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4377011",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377012",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377013",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377014",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4377015",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4377016",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377017",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377018",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377020",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4377021",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 4
+    },
+    {
+      "factura": "4377029",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4377039",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377041",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377105",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377106",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377126",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377137",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377179",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377180",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377183",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377198",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377208",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4377210",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4377211",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4383092",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4383095",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4383097",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4383102",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4383103",
+      "paso": "procesamiento",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "num_pasajeros": 1
+    }
+  ]
+}

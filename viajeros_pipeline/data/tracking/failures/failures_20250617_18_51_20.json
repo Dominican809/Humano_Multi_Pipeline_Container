@@ -1,0 +1,1641 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4220600",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4223310",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4223386",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4223515",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4223586",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4223601",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4232029",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4232095",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4232105",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4232631",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4253401",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4253442",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4253571",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4272076",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4272187",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4272324",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4273040",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4273274",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4273278",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4273435",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4273535",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4273570",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4273575",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4274016",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4274339",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4274746",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4275060",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4275094",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 5
+    },
+    {
+      "factura": "4281353",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4281440",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4281508",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4281606",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4281607",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4281960",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4282203",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4282392",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4282401",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4289570",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4302814",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4302845",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4302848",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4303078",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4303630",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4303685",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4303719",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4303767",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4303769",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4303783",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4311708",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4320037",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4321592",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4321604",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4321616",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4321621",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4321630",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4321672",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4321725",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4321775",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4321806",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4321811",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4321823",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4321875",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 4
+    },
+    {
+      "factura": "4321887",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4321888",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4321907",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4322750",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4322756",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4322760",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4322763",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4322776",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4322796",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4322801",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4322812",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4322835",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4322949",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4322956",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4322964",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323000",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 5
+    },
+    {
+      "factura": "4323003",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323021",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323024",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4323035",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323043",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 4
+    },
+    {
+      "factura": "4323045",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4323057",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323058",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323068",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323071",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323075",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4323108",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323144",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323146",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323163",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323169",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323187",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323206",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4323216",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4323230",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4323385",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323417",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323440",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323444",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4323511",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4323596",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4323597",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323600",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323608",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323694",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323737",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323752",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4323766",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 4
+    },
+    {
+      "factura": "4323775",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323777",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4323778",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323781",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323783",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323791",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4323799",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323809",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323850",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323852",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323888",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323889",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4323911",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4323917",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323976",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324024",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324026",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324035",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324042",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324049",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4324051",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324054",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 4
+    },
+    {
+      "factura": "4324056",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324064",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324109",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324113",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324122",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324192",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 4
+    },
+    {
+      "factura": "4324244",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4324245",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324246",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324263",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4324275",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4324279",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324281",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324313",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324325",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324344",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4324376",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324400",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324401",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324408",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4324412",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324415",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324416",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4324434",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324454",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324491",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4324501",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324515",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324522",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324535",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324538",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324543",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 4
+    },
+    {
+      "factura": "4324557",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324606",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324669",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324712",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324713",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324723",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 11
+    },
+    {
+      "factura": "4324743",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324755",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324789",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4324820",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324824",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324825",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324833",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4324847",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324853",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324856",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324866",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324873",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324896",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4324902",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 12
+    },
+    {
+      "factura": "4324907",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324908",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324926",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324937",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324950",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324951",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324976",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4324996",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324997",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325014",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325016",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325019",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325020",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325022",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325024",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325026",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4325032",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325033",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4325045",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325060",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4325083",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 5
+    },
+    {
+      "factura": "4325088",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325136",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325157",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4325160",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325164",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 4
+    },
+    {
+      "factura": "4325167",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4325177",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325181",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325185",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325187",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325189",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4325190",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4325197",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4325201",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 4
+    },
+    {
+      "factura": "4325209",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325216",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325224",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325225",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4325226",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4325229",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4325244",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325250",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325256",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 4
+    },
+    {
+      "factura": "4325263",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 4
+    },
+    {
+      "factura": "4325265",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4325274",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325285",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4325288",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325289",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325290",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325304",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4325306",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4325314",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325322",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325337",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 4
+    },
+    {
+      "factura": "4325341",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325351",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325353",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325355",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4325359",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 5
+    },
+    {
+      "factura": "4325372",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325376",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4325393",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4325398",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325401",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325402",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325404",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325405",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325407",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325433",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325436",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325439",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325445",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325448",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4325457",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4325470",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4325472",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325474",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 4
+    },
+    {
+      "factura": "4325475",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325476",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4325477",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325478",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325479",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4325482",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325483",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 6
+    },
+    {
+      "factura": "4325484",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325496",
+      "step": "desconocido",
+      "error": "cotizar_emision() takes 1 positional argument but 2 were given",
+      "num_asegurados": 4
+    },
+    

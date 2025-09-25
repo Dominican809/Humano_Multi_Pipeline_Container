@@ -1,0 +1,90 @@
+# Environment and Configuration Files
+.env
+config.env
+*.env
+
+# Database Files
+*.sqlite3
+*.db
+
+# Log Files
+*.log
+logs/
+shared/logs/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Excel Files (keep structure but ignore sensitive data)
+# Uncomment if you want to exclude Excel files
+# *.xlsx
+# *.xls
+
+# Data Files (keep structure but ignore processed data)
+# Uncomment if you want to exclude data files
+# data/
+# */data/
+
+# Backup Files
+*.backup
+*_backup.*
+
+# Test Files
+test_*.json
+test_*.xlsx
+
+# Statistics Files (keep structure but ignore runtime data)
+shared/stats/
+
+# Email Attachments (keep structure but ignore actual attachments)
+*/Exceles/*.xlsx
+*/exceles/*.xlsx

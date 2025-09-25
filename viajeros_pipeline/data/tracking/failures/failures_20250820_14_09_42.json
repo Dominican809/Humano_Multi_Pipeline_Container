@@ -1,0 +1,43 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4563585",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 2,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-F40C3-66EC",
+              "identity": "40227554348",
+              "passport": "9232157-0",
+              "firstname": "ELIDA",
+              "lastname": "LAFONTAINE PERALTA",
+              "birthdate": "1999-02-13"
+            },
+            {
+              "ticket_id": "HUM-F40C3-66EC",
+              "identity": "40209966254",
+              "passport": "3148732-0",
+              "firstname": "KARLA YAMELL",
+              "lastname": "TAVERAS CONTRERAS",
+              "birthdate": "1999-01-08"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/2325/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    }
+  ]
+}

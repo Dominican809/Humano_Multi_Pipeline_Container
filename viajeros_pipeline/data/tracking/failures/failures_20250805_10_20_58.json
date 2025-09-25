@@ -1,0 +1,35 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4540202",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-0E04E-2F1F",
+              "identity": null,
+              "passport": "2342282-0",
+              "firstname": "ALTAGRACIA",
+              "lastname": "ORTIZ VALERIO",
+              "birthdate": "1944-05-20"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/1982/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    }
+  ]
+}

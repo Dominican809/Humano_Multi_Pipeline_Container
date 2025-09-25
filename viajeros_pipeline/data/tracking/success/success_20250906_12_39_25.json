@@ -1,0 +1,94 @@
+{
+  "emisiones_exitosas": [
+    {
+      "factura": "4593237",
+      "tracking_id": "HUM-5D70A-AD58",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4593308",
+      "tracking_id": "HUM-2311F-1AD7",
+      "total_asegurados": 5
+    },
+    {
+      "factura": "4612854",
+      "tracking_id": "HUM-CF807-C23E",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4612876",
+      "tracking_id": "HUM-486F8-AC50",
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4612901",
+      "tracking_id": "HUM-A9ADC-4758",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4612940",
+      "tracking_id": "HUM-8277E-1A33",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4612946",
+      "tracking_id": "HUM-26BEB-9B87",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4612951",
+      "tracking_id": "HUM-E18D3-85A3",
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4612959",
+      "tracking_id": "HUM-ABA7D-8AC2",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4612963",
+      "tracking_id": "HUM-AE4F0-1965",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4612973",
+      "tracking_id": "HUM-DB4A9-42D0",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4613006",
+      "tracking_id": "HUM-DC24F-ED85",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4613017",
+      "tracking_id": "HUM-342AF-255C",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4613178",
+      "tracking_id": "HUM-370BB-CFE0",
+      "total_asegurados": 3
+    },
+    {
+      "factura": "4613187",
+      "tracking_id": "HUM-A88F4-9B2E",
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4613200",
+      "tracking_id": "HUM-E51F6-DF16",
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4613203",
+      "tracking_id": "HUM-D4672-558D",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4613204",
+      "tracking_id": "HUM-F267A-7071",
+      "total_asegurados": 1
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "202509221135",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 5,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-D78CB-068C",
+              "identity": null,
+              "passport": "1831426-5",
+              "firstname": "DEYANIRA",
+              "lastname": "PAPPATERRA HERNANDEZ",
+              "birthdate": "1976-08-14"
+            },
+            {
+              "ticket_id": "HUM-D78CB-068C",
+              "identity": null,
+              "passport": "2985635-2",
+              "firstname": "ENRIQUE JAVIER",
+              "lastname": "ESPANOL MENESES",
+              "birthdate": "2025-07-11"
+            },
+            {
+              "ticket_id": "HUM-D78CB-068C",
+              "identity": null,
+              "passport": "3150560-3",
+              "firstname": "LISGIANYI ODETTE",
+              "lastname": "DE LOS SANTOS GUZMAN",
+              "birthdate": "2017-12-28"
+            },
+            {
+              "ticket_id": "HUM-D78CB-068C",
+              "identity": null,
+              "passport": "3150560-4",
+              "firstname": "YARITZA",
+              "lastname": "GUZMAN",
+              "birthdate": "1993-08-23"
+            },
+            {
+              "ticket_id": "HUM-3ED6D-3D60",
+              "identity": null,
+              "passport": "3150560-0",
+              "firstname": "CARLOS MANUEL",
+              "lastname": "DE LOS SANTOS SANTOS",
+              "birthdate": "1985-06-25"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/2867/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    }
+  ]
+}

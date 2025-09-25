@@ -1,0 +1,123 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4460584",
+      "step": "pago",
+      "error": "No se generó ticket de la póliza",
+      "num_asegurados": 2,
+      "error_details": {
+        "status_code": 500,
+        "api_response": {
+          "error": true,
+          "message": "No se pudo registrar su pago en la aplicación"
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "No se pudo registrar su pago en la aplicación"
+        ]
+      }
+    },
+    {
+      "factura": "4460691",
+      "step": "pago",
+      "error": "No se generó ticket de la póliza",
+      "num_asegurados": 2,
+      "error_details": {
+        "status_code": 500,
+        "api_response": {
+          "error": true,
+          "message": "No se pudo registrar su pago en la aplicación"
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "No se pudo registrar su pago en la aplicación"
+        ]
+      }
+    },
+    {
+      "factura": "4460716",
+      "step": "pago",
+      "error": "No se generó ticket de la póliza",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 500,
+        "api_response": {
+          "error": true,
+          "message": "No se pudo registrar su pago en la aplicación"
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "No se pudo registrar su pago en la aplicación"
+        ]
+      }
+    },
+    {
+      "factura": "4460729",
+      "step": "pago",
+      "error": "No se generó ticket de la póliza",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 500,
+        "api_response": {
+          "error": true,
+          "message": "No se pudo registrar su pago en la aplicación"
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "No se pudo registrar su pago en la aplicación"
+        ]
+      }
+    },
+    {
+      "factura": "4460773",
+      "step": "pago",
+      "error": "No se generó ticket de la póliza",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 500,
+        "api_response": {
+          "error": true,
+          "message": "No se pudo registrar su pago en la aplicación"
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "No se pudo registrar su pago en la aplicación"
+        ]
+      }
+    },
+    {
+      "factura": "4460780",
+      "step": "pago",
+      "error": "No se generó ticket de la póliza",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 500,
+        "api_response": {
+          "error": true,
+          "message": "No se pudo registrar su pago en la aplicación"
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "No se pudo registrar su pago en la aplicación"
+        ]
+      }
+    },
+    {
+      "factura": "4460817",
+      "step": "pago",
+      "error": "No se generó ticket de la póliza",
+      "num_asegurados": 3,
+      "error_details": {
+        "status_code": 500,
+        "api_response": {
+          "error": true,
+          "message": "No se pudo registrar su pago en la aplicación"
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "No se pudo registrar su pago en la aplicación"
+        ]
+      }
+    }
+  ]
+}

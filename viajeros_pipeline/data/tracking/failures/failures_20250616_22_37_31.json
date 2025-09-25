@@ -1,0 +1,64 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4326279",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 202",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4326293",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 202",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4326296",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 202",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4326301",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 202",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4326302",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 202",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4326313",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 202",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4326315",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 202",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4326318",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 202",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4326328",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 202",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4326329",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 202",
+      "num_asegurados": 1
+    }
+  ]
+}

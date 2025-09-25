@@ -1,0 +1,21 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4460584",
+      "step": "pago",
+      "error": "No se generó ticket de la póliza",
+      "num_asegurados": 2,
+      "error_details": {
+        "status_code": 500,
+        "api_response": {
+          "error": true,
+          "message": "No se pudo registrar su pago en la aplicación"
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "No se pudo registrar su pago en la aplicación"
+        ]
+      }
+    }
+  ]
+}

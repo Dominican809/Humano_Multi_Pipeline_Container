@@ -1,0 +1,35 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4582789",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-ADEEE-EE53",
+              "identity": "40222734374",
+              "passport": "3115995-0",
+              "firstname": "JUAN ARIEL",
+              "lastname": "BRITO ROJAS",
+              "birthdate": "1992-11-26"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/2390/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    }
+  ]
+}

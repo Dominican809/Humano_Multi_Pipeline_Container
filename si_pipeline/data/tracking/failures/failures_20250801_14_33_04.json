@@ -1,0 +1,25 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "202508011431",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 10512,
+      "error_details": {
+        "status_code": 415,
+        "api_response": {
+          "error": true,
+          "message": {
+            "insured": [
+              "Existen pasaportes duplicados en el certificado"
+            ]
+          }
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "insured: Existen pasaportes duplicados en el certificado"
+        ]
+      }
+    }
+  ]
+}

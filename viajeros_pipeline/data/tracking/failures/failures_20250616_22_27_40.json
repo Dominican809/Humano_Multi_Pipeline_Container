@@ -1,0 +1,112 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4326279",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4326293",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4326296",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4326301",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4326302",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4326313",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4326315",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4326318",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4326328",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4326329",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4326336",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 5
+    },
+    {
+      "factura": "4326348",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4326361",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4326363",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4326364",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4326367",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4326370",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4326371",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4533343",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 4,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-542AE-454B",
+              "identity": "40200607659",
+              "passport": "2028142-3",
+              "firstname": "NICANDRA",
+              "lastname": "SANTANA MORALES",
+              "birthdate": "1998-06-06"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/1953/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    }
+  ]
+}

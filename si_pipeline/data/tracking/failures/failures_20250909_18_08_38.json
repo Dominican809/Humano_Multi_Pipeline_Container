@@ -1,0 +1,35 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "202509091808",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 3,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "03104471036",
+              "passport": "9354481-0",
+              "firstname": "CLAUDIA MARIEL",
+              "lastname": "SAHDALA SANTANA",
+              "birthdate": "1985-10-27"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/2626/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    }
+  ]
+}

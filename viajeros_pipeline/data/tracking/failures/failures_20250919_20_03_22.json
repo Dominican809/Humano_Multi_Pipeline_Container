@@ -1,0 +1,21 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4636462",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 500,
+        "api_response": {
+          "error": true,
+          "message": "No se pudo crear la cotización"
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "No se pudo crear la cotización"
+        ]
+      }
+    }
+  ]
+}

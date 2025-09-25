@@ -1,0 +1,50 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4560401",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "error": true,
+          "message": {}
+        },
+        "validation_codes": [],
+        "validation_messages": []
+      }
+    },
+    {
+      "factura": "4560439",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-8575C-9531",
+              "identity": "00118857077",
+              "passport": "1657850-2",
+              "firstname": "HUASCAR ALBERTO",
+              "lastname": "VENTURA RONDON",
+              "birthdate": "1991-11-20"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/2098/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    }
+  ]
+}

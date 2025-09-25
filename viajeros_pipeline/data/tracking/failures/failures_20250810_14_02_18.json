@@ -1,0 +1,35 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4561884",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-21EC8-1726",
+              "identity": "40224213435",
+              "passport": "9151920-0",
+              "firstname": "LERINED",
+              "lastname": "SANCHEZ PORTES",
+              "birthdate": "1995-12-27"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/2153/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    }
+  ]
+}

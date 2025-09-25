@@ -1,0 +1,130 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4333526",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 6
+    },
+    {
+      "factura": "4354274",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4354468",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 5
+    },
+    {
+      "factura": "4359304",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4367776",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4371675",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4372827",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4373077",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4374410",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4375337",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4376716",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4376796",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4377012",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4377029",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4383158",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4383697",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4405500",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 5
+    },
+    {
+      "factura": "4427023",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4427550",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4428987",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4430031",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 4
+    }
+  ]
+}

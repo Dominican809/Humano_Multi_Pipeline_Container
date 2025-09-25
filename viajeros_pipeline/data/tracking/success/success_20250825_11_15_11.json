@@ -1,0 +1,24 @@
+{
+  "emisiones_exitosas": [
+    {
+      "factura": "4583082",
+      "tracking_id": "HUM-CF151-7DAD",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4583083",
+      "tracking_id": "HUM-B6A01-4063",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4583084",
+      "tracking_id": "HUM-71B3C-793D",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4583090",
+      "tracking_id": "HUM-8AEFF-4BEF",
+      "total_asegurados": 1
+    }
+  ]
+}

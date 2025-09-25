@@ -1,0 +1,74 @@
+{
+  "emisiones_exitosas": [
+    {
+      "factura": "4529342",
+      "tracking_id": "HUM-AF457-4C81",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4529971",
+      "tracking_id": "HUM-6B428-7AFB",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4529997",
+      "tracking_id": "HUM-D5D8C-F032",
+      "total_asegurados": 4
+    },
+    {
+      "factura": "4530001",
+      "tracking_id": "HUM-54A29-8889",
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4530004",
+      "tracking_id": "HUM-EC3A0-5343",
+      "total_asegurados": 3
+    },
+    {
+      "factura": "4530030",
+      "tracking_id": "HUM-A93D5-3752",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4530047",
+      "tracking_id": "HUM-59D87-8B98",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4530048",
+      "tracking_id": "HUM-EC216-CF83",
+      "total_asegurados": 3
+    },
+    {
+      "factura": "4530070",
+      "tracking_id": "HUM-0A895-AB84",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4530077",
+      "tracking_id": "HUM-4BDBB-8A2C",
+      "total_asegurados": 1
+    },
+    {
+      "factura": "4530132",
+      "tracking_id": "HUM-A380B-E9E4",
+      "total_asegurados": 2
+    },
+    {
+      "factura": "4530163",
+      "tracking_id": "HUM-EF58E-7911",
+      "total_asegurados": 6
+    },
+    {
+      "factura": "4530168",
+      "tracking_id": "HUM-39B76-D695",
+      "total_asegurados": 4
+    },
+    {
+      "factura": "4530169",
+      "tracking_id": "HUM-1E3D6-47EE",
+      "total_asegurados": 1
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4560930",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-D467F-3B41",
+              "identity": null,
+              "passport": "2999741-0",
+              "firstname": "BIENVENIDA DE LOURDES",
+              "lastname": "PEREZ ROMAN DE JIMENEZ",
+              "birthdate": "1970-12-29"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/2125/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    },
+    {
+      "factura": "4561810",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 4,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "error": true,
+          "message": {}
+        },
+        "validation_codes": [],
+        "validation_messages": []
+      }
+    },
+    {
+      "factura": "4561836",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 2,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-3CF18-B8D1",
+              "identity": "00108153131",
+              "passport": "2004152-1",
+              "firstname": "LUIS ENRIQUE",
+              "lastname": "HERNANDEZ MACEO",
+              "birthdate": "1970-11-24"
+            },
+            {
+              "ticket_id": "HUM-3CF18-B8D1",
+              "identity": "00116804436",
+              "passport": "2004152-0",
+              "firstname": "YULIN SHANTAL",
+              "lastname": "FERRERAS CHEZ",
+              "birthdate": "1984-10-13"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/2140/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    }
+  ]
+}

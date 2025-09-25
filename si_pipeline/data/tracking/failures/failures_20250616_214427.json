@@ -1,0 +1,70 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4324415",
+      "paso": "pago",
+      "error": "No se generó ticket de la póliza",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4324416",
+      "paso": "pago",
+      "error": "No se generó ticket de la póliza",
+      "num_pasajeros": 3
+    },
+    {
+      "factura": "4324434",
+      "paso": "pago",
+      "error": "No se generó ticket de la póliza",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4324454",
+      "paso": "pago",
+      "error": "No se generó ticket de la póliza",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4324491",
+      "paso": "pago",
+      "error": "No se generó ticket de la póliza",
+      "num_pasajeros": 2
+    },
+    {
+      "factura": "4324501",
+      "paso": "pago",
+      "error": "No se generó ticket de la póliza",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4324515",
+      "paso": "pago",
+      "error": "No se generó ticket de la póliza",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4324522",
+      "paso": "pago",
+      "error": "No se generó ticket de la póliza",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4324535",
+      "paso": "pago",
+      "error": "No se generó ticket de la póliza",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4324538",
+      "paso": "pago",
+      "error": "No se generó ticket de la póliza",
+      "num_pasajeros": 1
+    },
+    {
+      "factura": "4324543",
+      "paso": "pago",
+      "error": "No se generó ticket de la póliza",
+      "num_pasajeros": 4
+    }
+  ]
+}

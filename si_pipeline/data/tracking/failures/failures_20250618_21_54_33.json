@@ -1,0 +1,340 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4289570",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4320037",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4322796",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4322956",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4323058",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324434",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324535",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4324606",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4325355",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4326270",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 22
+    },
+    {
+      "factura": "4326367",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4332611",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4332630",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4332780",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4332925",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4333587",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4333763",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4333767",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4354463",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4371734",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4372784",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4372827",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4374123",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 4
+    },
+    {
+      "factura": "4375007",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4375188",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4375310",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4375346",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4375399",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4375568",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4375718",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4376650",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4376796",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4376995",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4376996",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4377012",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4377017",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4377029",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4383150",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4383374",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4384196",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4384541",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4406614",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 3
+    },
+    {
+      "factura": "4409406",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4427477",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4427516",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4427548",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4427549",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4427550",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4427555",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4428987",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4429547",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4436740",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 2
+    },
+    {
+      "factura": "4436897",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4437051",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4437151",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 1
+    },
+    {
+      "factura": "4458830",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 500",
+      "num_asegurados": 2
+    }
+  ]
+}

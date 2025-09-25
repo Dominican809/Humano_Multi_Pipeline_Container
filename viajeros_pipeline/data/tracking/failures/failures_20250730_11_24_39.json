@@ -1,0 +1,35 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4532480",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-E6530-EAFC",
+              "identity": "40220047720",
+              "passport": "3130967-0",
+              "firstname": "RUTH ANNERIS",
+              "lastname": "GIL ROSARIO",
+              "birthdate": "1992-01-08"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/1899/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    }
+  ]
+}

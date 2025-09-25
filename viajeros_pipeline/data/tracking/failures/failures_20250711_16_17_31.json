@@ -1,0 +1,65 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4509801",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-7D7CA-D426",
+              "identity": "00116253535",
+              "passport": "872383-0",
+              "firstname": "ALEXANDRA MARIA",
+              "lastname": "BARET CHU",
+              "birthdate": "1983-01-04"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/1575/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    },
+    {
+      "factura": "4509898",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 2,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "error": true,
+          "message": {}
+        },
+        "validation_codes": [],
+        "validation_messages": []
+      }
+    },
+    {
+      "factura": "4510004",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "error": true,
+          "message": {}
+        },
+        "validation_codes": [],
+        "validation_messages": []
+      }
+    }
+  ]
+}
