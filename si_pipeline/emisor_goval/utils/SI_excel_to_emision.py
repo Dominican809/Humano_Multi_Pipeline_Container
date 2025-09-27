@@ -104,5 +104,5 @@ def create_single_emission(excel_path, output_path):
 """
 if __name__ == "__main__":
     # Example Usage
-    create_single_emission("Comparador_Humano/exceles/comparison_result.xlsx", "emision_unica.json")
+    create_single_emission("/app/si_pipeline/Comparador_Humano/exceles/comparison_result.xlsx", "/app/si_pipeline/emision_unica.json")
 """

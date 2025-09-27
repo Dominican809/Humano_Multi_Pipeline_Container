@@ -1,10 +1,17 @@
+#!/usr/bin/env python3
 """
-Script principal para la emisión automatizada de pólizas usando los módulos refactorizados.
+Unified SI Pipeline with Individual Filtering and Complete Error Handling.
+This implementation correctly handles the SI pipeline flow:
+1. File comparison (automatic old file replacement)
+2. Single emission creation
+3. API processing with individual filtering on errors
+4. Statistics saving and error reporting
 """
 
 import sys
 import json
 import os
+import time
 from pathlib import Path
 from loguru import logger
 from emisor_goval.utils.procesar_validacion import procesar_validacion
@@ -14,37 +21,371 @@ from emisor_goval.utils.SI_excel_to_emision import create_single_emission
 # Check if running in automated mode (Docker container)
 is_automated = os.environ.get('AUTOMATED_MODE', 'false').lower() == 'true'
 
-def run_si_pipeline():
+def extract_failed_individuals_from_api_response(api_response):
+    """Extract individuals with active coverage from API response."""
+    failed_individuals = []
+    if api_response and 'found' in api_response and api_response['found']:
+        failed_individuals = api_response['found']
+    return failed_individuals
+
+def filter_individuals_from_json(json_path, failed_individuals):
     """
-    Run the complete SI pipeline process.
-    This function handles the comparison and emission creation steps.
+    Remove failed individuals from the emission JSON file.
+    
+    Args:
+        json_path: Path to the emission JSON file
+        failed_individuals: List of individuals that failed validation
+        
+    Returns:
+        tuple: (filtered_json_path, removed_individuals)
     """
-    logger.info("🚀 Starting SI pipeline process...")
+    if not failed_individuals:
+        return json_path, []
     
     try:
-        # Step 1: Compare files
-        if not is_automated:
-            input("Presiona Enter para continuar... a comparar los archivo:")
-        logger.info("📊 Running SI file comparison...")
-        comparador_SI()
-        logger.info("✅ SI file comparison completed")
+        # Read the current JSON
+        with open(json_path, 'r', encoding='utf-8') as f:
+            emission_data = json.load(f)
+        
+        # Create sets of failed identifiers for quick lookup
+        failed_passports = set()
+        failed_identities = set()
+        
+        for individual in failed_individuals:
+            if individual.get('passport'):
+                failed_passports.add(individual['passport'])
+            if individual.get('identity'):
+                failed_identities.add(individual['identity'])
+        
+        # Filter insured individuals
+        removed_individuals = []
+        for factura, emision in emission_data.items():
+            original_insured = emision["emision"]["insured"]
+            filtered_insured = []
+            
+            for insured in original_insured:
+                should_remove = False
+                
+                # Check passport
+                if insured.get('passport') and insured['passport'] in failed_passports:
+                    should_remove = True
+                
+                # Check identity
+                if insured.get('identity') and insured['identity'] in failed_identities:
+                    should_remove = True
+                
+                if should_remove:
+                    removed_individuals.append(insured)
+                else:
+                    filtered_insured.append(insured)
+            
+            # Update the emission with filtered insured
+            emission_data[factura]["emision"]["insured"] = filtered_insured
+        
+        # Save filtered JSON
+        filtered_json_path = json_path.replace('.json', '_filtered.json')
+        with open(filtered_json_path, 'w', encoding='utf-8') as f:
+            json.dump(emission_data, f, ensure_ascii=False, indent=2)
+        
+        logger.info(f"✅ Filtered JSON saved to: {filtered_json_path}")
+        logger.info(f"📊 Removed {len(removed_individuals)} individuals")
+        
+        return filtered_json_path, removed_individuals
+        
+    except Exception as e:
+        logger.error(f"❌ Error filtering individuals: {e}")
+        return json_path, []
+
+def process_si_emission_with_retry(json_path="/app/si_pipeline/emision_unica.json"):
+    """
+    Process SI emission with individual filtering and retry logic.
+    
+    Args:
+        json_path: Path to the emission JSON file
+        
+    Returns:
+        tuple: (success, successful_emissions, failed_individuals_data, all_failed_individuals)
+    """
+    logger.info("🚀 Starting SI emission processing with individual filtering and retry...")
+    
+    try:
+        # Load emissions from JSON file
+        with open(json_path, 'r', encoding='utf-8') as f:
+            emisiones = json.load(f)
+            
+        logger.info(f"📊 Total emissions to process: {len(emisiones)}")
+        
+        # Process emissions with the existing procesar_validacion function
+        emisiones_exitosas, emisiones_fallidas = procesar_validacion(
+            emisiones_path=json_path,
+            output_success_path="/app/si_pipeline/data/successful_emissions.json",
+            output_errors_path="/app/si_pipeline/data/failed_emissions.json"
+        )
+        
+        # Extract failed individuals from API responses
+        failed_individuals_data = []
+        all_failed_individuals = []
+        
+        for factura, error_data in emisiones_fallidas.items():
+            if 'error_details' in error_data and 'api_response' in error_data['error_details']:
+                api_response = error_data['error_details']['api_response']
+                failed_individuals = extract_failed_individuals_from_api_response(api_response)
+                
+                if failed_individuals:
+                    failed_individuals_data.append({
+                        "factura": factura,
+                        "api_failed_individuals": failed_individuals,
+                        "error_details": error_data['error_details']
+                    })
+                    all_failed_individuals.extend(failed_individuals)
+        
+        # If we have failed individuals, try filtering and retrying
+        if failed_individuals_data:
+            logger.info(f"🔄 Found {len(all_failed_individuals)} failed individuals, attempting retry with filtering...")
+            
+            # Filter individuals and create new JSON
+            filtered_json_path, removed_individuals = filter_individuals_from_json(json_path, all_failed_individuals)
+            
+            if removed_individuals:
+                logger.info(f"🔄 Retrying with filtered data...")
+                
+                # Process the filtered emissions
+                emisiones_exitosas_filtered, emisiones_fallidas_filtered = procesar_validacion(
+                    emisiones_path=filtered_json_path,
+                    output_success_path="/app/si_pipeline/data/successful_emissions_filtered.json",
+                    output_errors_path="/app/si_pipeline/data/failed_emissions_filtered.json"
+                )
+                
+                # Combine results
+                emisiones_exitosas.update(emisiones_exitosas_filtered)
+                emisiones_fallidas.update(emisiones_fallidas_filtered)
+                
+                logger.info(f"✅ Retry completed. Total successful: {len(emisiones_exitosas)}")
+        
+        # Save statistics to the new unified system
+        try:
+            import sys as sys_module
+            sys_module.path.append('/app/shared')
+            from statistics_manager import save_pipeline_execution_stats
+            
+            # Calculate statistics
+            successful_people = sum(len(emision.get('emision', {}).get('insured', [])) for emision in emisiones_exitosas.values())
+            failed_people = len(all_failed_individuals)
+            
+            stats = {
+                'run_id': f"{time.strftime('%Y%m%d_%H_%M_%S')}",
+                'emisiones': {
+                    'total': len(emisiones),
+                    'exitosas': len(emisiones_exitosas),
+                    'fallidas': len(emisiones_fallidas)
+                },
+                'asegurados': {
+                    'total': successful_people + failed_people,
+                    'exitosos': successful_people,
+                    'fallidos': failed_people
+                },
+                'errores_por_tipo': {},
+                'codigos_validacion': {}
+            }
+            
+            # Save to unified statistics system
+            save_pipeline_execution_stats('si', stats)
+            logger.info(f"📊 Saved unified statistics: {successful_people} successful, {failed_people} failed")
+        except Exception as e:
+            logger.error(f"❌ Error saving statistics: {e}")
+        
+        return True, emisiones_exitosas, failed_individuals_data, all_failed_individuals
+        
+    except Exception as e:
+        logger.error(f"❌ Error in SI emission processing: {e}")
+        import traceback
+        logger.error(f"Traceback: {traceback.format_exc()}")
+        return False, [], [], []
+
+def run_si_pipeline():
+    """
+    Run the complete SI pipeline process with individual filtering and retry logic.
+    """
+    logger.info("🚀 Starting SI pipeline process with individual filtering...")
+    
+    try:
+        # Clean up previous run data to ensure fresh start
+        logger.info("🧹 Cleaning up previous run data...")
+        data_dir = "/app/si_pipeline/data"
+        if os.path.exists(data_dir):
+            # Remove old failed individuals data files
+            old_files = [
+                "/app/si_pipeline/data/latest_failed_individuals.json",
+                "/app/si_pipeline/data/failed_individuals_data.json",
+                "/app/si_pipeline/data/successful_emissions.json"
+            ]
+            for file_path in old_files:
+                if os.path.exists(file_path):
+                    os.remove(file_path)
+                    logger.info(f"🗑️ Removed old file: {file_path}")
+        
+        logger.info("✅ Cleanup completed - starting fresh process")
+        # Step 1: Check if comparison has already been done by pipeline manager
+        comparison_file = "/app/si_pipeline/Comparador_Humano/exceles/comparison_result.xlsx"
+        
+        if os.path.exists(comparison_file):
+            # Check if the comparison file is recent (within last 5 minutes)
+            file_age = time.time() - os.path.getmtime(comparison_file)
+            if file_age < 300:  # 5 minutes
+                logger.info("✅ Comparison already completed by pipeline manager - skipping comparison step")
+                skip_comparison = True
+            else:
+                logger.info("⚠️ Comparison file exists but is old - will re-run comparison")
+                skip_comparison = False
+        else:
+            logger.info("📊 No existing comparison file found - will run comparison")
+            skip_comparison = False
+        
+        if not skip_comparison:
+            # Step 1: Compare files (this automatically replaces old file with new file)
+            if not is_automated:
+                input("Presiona Enter para continuar... a comparar los archivo:")
+            logger.info("📊 Running SI file comparison...")
+            
+            # List files in the SI directory - use absolute path
+            si_dir = "/app/si_pipeline/Comparador_Humano/exceles"
+            logger.info(f"📁 SI exceles directory: {si_dir}")
+            if os.path.exists(si_dir):
+                files = os.listdir(si_dir)
+                logger.info(f"📂 Files in SI exceles directory: {files}")
+            else:
+                logger.error(f"❌ SI exceles directory not found: {si_dir}")
+                return False, [], [], []
+            
+            try:
+                comparison_result = comparador_SI()
+                if comparison_result:
+                    logger.info("✅ SI file comparison completed successfully")
+                else:
+                    logger.error("❌ SI file comparison failed")
+                    return False, [], [], []
+            except Exception as e:
+                logger.error(f"❌ Error during comparison: {e}")
+                return False, [], [], []
+            
+            # Save statistics to the new unified system
+            try:
+                import sys as sys_module
+                sys_module.path.append('/app/shared')
+                from statistics_manager import save_pipeline_execution_stats
+                
+                # Save to unified statistics system
+                save_pipeline_execution_stats('si', {
+                    'run_id': f"{time.strftime('%Y%m%d_%H_%M_%S')}",
+                    'emisiones': {'total': 0, 'exitosas': 0, 'fallidas': 0},
+                    'asegurados': {'total': 0, 'exitosos': 0, 'fallidos': 0},
+                    'errores_por_tipo': {},
+                    'codigos_validacion': {}
+                })
+                logger.info("📊 Saved comparison statistics")
+            except Exception as e:
+                logger.error(f"❌ Error saving comparison statistics: {e}")
+        
+        # Check if comparison result file exists and has data - use absolute path
+        comparison_file = "/app/si_pipeline/Comparador_Humano/exceles/comparison_result.xlsx"
+        logger.info(f"📁 Checking comparison result file: {comparison_file}")
+        
+        if not os.path.exists(comparison_file):
+            logger.error(f"❌ Comparison result file not found: {comparison_file}")
+            return False, [], [], []
+        
+        # Check if file has data
+        import pandas as pd
+        try:
+            df = pd.read_excel(comparison_file)
+            if len(df) == 0:
+                logger.warning("⚠️ Comparison result file is empty - no new people to process")
+                return False, [], [], []
+            logger.info(f"📊 Comparison result file has {len(df)} rows")
+        except Exception as e:
+            logger.error(f"❌ Error reading comparison result file: {e}")
+            return False, [], [], []
         
         # Step 2: Create single emission
         if not is_automated:
             input("Presiona Enter para continuar... a crear la emision unica:")
         logger.info("📝 Creating single emission...")
-        create_single_emission("Comparador_Humano/exceles/comparison_result.xlsx", "emision_unica.json")
+        
+        create_single_emission(comparison_file, "/app/si_pipeline/emision_unica.json")
         logger.info("✅ Single emission created successfully")
         
-        return True
+        # Step 3: Process emissions with individual filtering and retry
+        logger.info("🔄 Processing emissions with individual filtering and retry...")
+        success, successful_emissions, failed_individuals_data, all_failed_individuals = process_si_emission_with_retry("/app/si_pipeline/emision_unica.json")
+        
+        # Step 4: Save results for email reporting
+        if successful_emissions:
+            logger.info(f"💾 Saving {len(successful_emissions)} successful emissions...")
+            os.makedirs("/app/si_pipeline/data", exist_ok=True)
+            with open("/app/si_pipeline/data/successful_emissions.json", "w") as f:
+                json.dump(successful_emissions, f, indent=2)
+        
+        # Always create latest_failed_individuals.json file for error handler
+        # This ensures the error handler knows the current process completed
+        logger.info("💾 Creating latest_failed_individuals.json for error handler...")
+        os.makedirs("/app/si_pipeline/data", exist_ok=True)
+        from datetime import datetime
+        with open("/app/si_pipeline/data/latest_failed_individuals.json", "w") as f:
+            json.dump({
+                'failed_individuals_data': failed_individuals_data if failed_individuals_data else [],
+                'all_failed_individuals': all_failed_individuals if all_failed_individuals else [],
+                'timestamp': datetime.now().isoformat(),
+                'process_completed': True
+            }, f, indent=2)
+        
+        if failed_individuals_data:
+            logger.info(f"💾 Saving {len(failed_individuals_data)} failed individuals data...")
+            with open("/app/si_pipeline/data/failed_individuals_data.json", "w") as f:
+                json.dump(failed_individuals_data, f, indent=2)
+        
+        # Save final statistics
+        try:
+            import sys as sys_module
+            sys_module.path.append('/app/shared')
+            from statistics_manager import save_pipeline_execution_stats
+            from datetime import datetime
+            
+            # Calculate final statistics
+            successful_people = sum(len(emision.get('emision', {}).get('insured', [])) for emision in successful_emissions.values()) if successful_emissions else 0
+            failed_people = len(all_failed_individuals)
+            
+            stats = {
+                'run_id': f"{datetime.now().strftime('%Y%m%d_%H_%M_%S')}",
+                'emisiones': {
+                    'total': len(successful_emissions) + len(failed_individuals_data),
+                    'exitosas': len(successful_emissions),
+                    'fallidas': len(failed_individuals_data)
+                },
+                'asegurados': {
+                    'total': successful_people + failed_people,
+                    'exitosos': successful_people,
+                    'fallidos': failed_people
+                },
+                'errores_por_tipo': {},
+                'codigos_validacion': {}
+            }
+            
+            # Save to unified statistics system
+            save_pipeline_execution_stats('si', stats)
+            logger.info(f"📊 Final statistics saved: {successful_people} successful, {failed_people} failed")
+        except Exception as e:
+            logger.error(f"❌ Error saving final statistics: {e}")
+        
+        logger.info("✅ SI pipeline with individual filtering and retry completed successfully")
+        return True, successful_emissions, failed_individuals_data, all_failed_individuals
         
     except Exception as e:
         logger.error(f"❌ Error in SI pipeline: {e}")
         import traceback
         logger.error(f"Traceback: {traceback.format_exc()}")
-        return False
+        return False, [], [], []
 
-def test_multiple_emissions(json_path: str = "emision_unica.json", num_emissions: int = 10) -> bool:
+def test_multiple_emissions(json_path: str = "/app/si_pipeline/emision_unica.json", num_emissions: int = 10) -> bool:
     """
     Prueba el procesamiento de múltiples emisiones.
     
@@ -57,7 +398,7 @@ def test_multiple_emissions(json_path: str = "emision_unica.json", num_emissions
     """
     try:
         # Crear directorio data si no existe
-        data_dir = Path("data")
+        data_dir = Path("/app/si_pipeline/data")
         data_dir.mkdir(exist_ok=True)
         
         # Crear archivo temporal con las primeras N emisiones
@@ -112,20 +453,20 @@ def main():
     """
     # Configurar logging
     logger.remove()
-    logger.add("logs/emisor.log", rotation="500 MB", level="DEBUG")
+    logger.add("/app/si_pipeline/logs/emisor.log", rotation="500 MB", level="DEBUG")
     logger.add(lambda msg: print(msg), level="INFO")
     
     # Verificar argumentos
     if len(sys.argv) > 1:
         if sys.argv[1] == "--test":
             # Modo prueba con emisiones múltiples
-            json_path = sys.argv[2] if len(sys.argv) > 2 else "emision_unica.json"
+            json_path = sys.argv[2] if len(sys.argv) > 2 else "/app/si_pipeline/emision_unica.json"
             num_emissions = int(sys.argv[3]) if len(sys.argv) > 3 else 10
             return 0 if test_multiple_emissions(json_path, num_emissions) else 1
         else:
             json_path = sys.argv[1]
     else:
-        json_path = "emision_unica.json"
+        json_path = "/app/si_pipeline/emision_unica.json"
         
     logger.info(f"🚀 Iniciando procesamiento de emisiones desde {json_path}")
     
@@ -142,10 +483,20 @@ def main():
 
 if __name__ == "__main__":
     # Run the complete SI pipeline process
-    pipeline_success = run_si_pipeline()
-    if pipeline_success:
-        # Then run the main processing
-        sys.exit(main())
+    success, successful_emissions, failed_individuals_data, all_failed_individuals = run_si_pipeline()
+    
+    if success:
+        logger.info(f"✅ Pipeline completed successfully!")
+        logger.info(f"📊 Results:")
+        logger.info(f"   - Successful emissions: {len(successful_emissions)}")
+        logger.info(f"   - Failed individuals data: {len(failed_individuals_data)}")
+        logger.info(f"   - Total failed individuals: {len(all_failed_individuals)}")
+        
+        # Then run the main processing if needed
+        if len(sys.argv) > 1 and sys.argv[1] != "--test":
+            sys.exit(main())
+        else:
+            sys.exit(0)
     else:
         logger.error("❌ SI pipeline failed, exiting")
-        sys.exit(1) 
+        sys.exit(1)

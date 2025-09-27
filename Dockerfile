@@ -23,7 +23,7 @@ RUN pip install --no-cache-dir \
     resend
 
 # Create necessary directories first
-RUN mkdir -p /app/logs /app/data /app/Exceles /tmp /app/shared
+RUN mkdir -p /app/logs /app/data /tmp /app/shared
 
 # Copy all components
 COPY email_watcher/ ./

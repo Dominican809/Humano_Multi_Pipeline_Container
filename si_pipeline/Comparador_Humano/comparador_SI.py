@@ -4,9 +4,9 @@ from loguru import logger
 
 def comparador_SI():
     """Enhanced SI comparison with comprehensive logging for debugging."""
-    old_file = 'Comparador_Humano/exceles/Asegurados_SI_old.xlsx'
-    new_file = 'Comparador_Humano/exceles/Asegurados_SI.xlsx'
-    output_file = 'Comparador_Humano/exceles/comparison_result.xlsx'
+    old_file = '/app/si_pipeline/Comparador_Humano/exceles/Asegurados_SI_old.xlsx'
+    new_file = '/app/si_pipeline/Comparador_Humano/exceles/Asegurados_SI.xlsx'
+    output_file = '/app/si_pipeline/Comparador_Humano/exceles/comparison_result.xlsx'
 
     logger.info("🔍 Starting SI file comparison with enhanced logging...")
     
@@ -41,28 +41,43 @@ def comparador_SI():
         logger.info(f"✅ New file loaded: {len(new_df)} rows, {len(new_df.columns)} columns")
         logger.info(f"   Columns: {list(new_df.columns)}")
         
-        # Check if CODIGO_INFOPLAN column exists
-        if 'CODIGO_INFOPLAN' not in old_df.columns:
+        # Determine the correct column to use for comparison
+        old_id_column = None
+        new_id_column = None
+        
+        # Check old file for CODIGO_INFOPLAN
+        if 'CODIGO_INFOPLAN' in old_df.columns:
+            old_id_column = 'CODIGO_INFOPLAN'
+        else:
             logger.error(f"❌ CODIGO_INFOPLAN column not found in old file. Available columns: {list(old_df.columns)}")
             return False
-            
-        if 'CODIGO_INFOPLAN' not in new_df.columns:
-            logger.error(f"❌ CODIGO_INFOPLAN column not found in new file. Available columns: {list(new_df.columns)}")
+        
+        # Check new file for DOCUMENTO_IDENTIDAD or CODIGO_INFOPLAN
+        if 'DOCUMENTO_IDENTIDAD' in new_df.columns:
+            new_id_column = 'DOCUMENTO_IDENTIDAD'
+        elif 'CODIGO_INFOPLAN' in new_df.columns:
+            new_id_column = 'CODIGO_INFOPLAN'
+        else:
+            logger.error(f"❌ Neither DOCUMENTO_IDENTIDAD nor CODIGO_INFOPLAN column found in new file. Available columns: {list(new_df.columns)}")
             return False
+        
+        logger.info(f"📊 Using columns for comparison:")
+        logger.info(f"   Old file: {old_id_column}")
+        logger.info(f"   New file: {new_id_column}")
         
         # Show sample data
         logger.info("📋 Sample data from old file (first 5 rows):")
         for i, row in old_df.head().iterrows():
-            logger.info(f"   Row {i}: CODIGO_INFOPLAN = {row.get('CODIGO_INFOPLAN', 'N/A')}")
+            logger.info(f"   Row {i}: {old_id_column} = {row.get(old_id_column, 'N/A')}")
         
         logger.info("📋 Sample data from new file (first 5 rows):")
         for i, row in new_df.head().iterrows():
-            logger.info(f"   Row {i}: CODIGO_INFOPLAN = {row.get('CODIGO_INFOPLAN', 'N/A')}")
+            logger.info(f"   Row {i}: {new_id_column} = {row.get(new_id_column, 'N/A')}")
         
         # Clean and prepare data for comparison
         logger.info("🧹 Cleaning and preparing data for comparison...")
-        old_codes = old_df['CODIGO_INFOPLAN'].astype(str).str.strip()
-        new_codes = new_df['CODIGO_INFOPLAN'].astype(str).str.strip()
+        old_codes = old_df[old_id_column].astype(str).str.strip()
+        new_codes = new_df[new_id_column].astype(str).str.strip()
         
         logger.info(f"📊 Unique codes in old file: {old_codes.nunique()}")
         logger.info(f"📊 Unique codes in new file: {new_codes.nunique()}")
@@ -71,13 +86,13 @@ def comparador_SI():
         logger.info("🔍 Finding new records...")
         new_mask = ~new_codes.isin(old_codes)
         new_records = new_df[new_mask]
-        new_records = new_records.drop_duplicates(subset='CODIGO_INFOPLAN')
+        new_records = new_records.drop_duplicates(subset=new_id_column)
         
         # Find removed records (in old_df but not in new_df)  
         logger.info("🔍 Finding removed records...")
         removed_mask = ~old_codes.isin(new_codes)
         removed_records = old_df[removed_mask]
-        removed_records = removed_records.drop_duplicates(subset='CODIGO_INFOPLAN')
+        removed_records = removed_records.drop_duplicates(subset=old_id_column)
 
         # Detailed logging of results
         logger.info(f"📊 Comparison Results:")
@@ -87,12 +102,12 @@ def comparador_SI():
         if len(new_records) > 0:
             logger.info("📋 Sample new records:")
             for i, (idx, row) in enumerate(new_records.head().iterrows()):
-                logger.info(f"   New record {i+1}: CODIGO_INFOPLAN = {row.get('CODIGO_INFOPLAN', 'N/A')}")
+                logger.info(f"   New record {i+1}: {new_id_column} = {row.get(new_id_column, 'N/A')}")
         
         if len(removed_records) > 0:
             logger.info("📋 Sample removed records:")
             for i, (idx, row) in enumerate(removed_records.head().iterrows()):
-                logger.info(f"   Removed record {i+1}: CODIGO_INFOPLAN = {row.get('CODIGO_INFOPLAN', 'N/A')}")
+                logger.info(f"   Removed record {i+1}: {old_id_column} = {row.get(old_id_column, 'N/A')}")
 
         # Export comparison result
         logger.info(f"💾 Saving comparison results to: {output_file}")

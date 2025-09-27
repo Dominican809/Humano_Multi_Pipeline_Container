@@ -485,27 +485,23 @@ class ErrorHandler:
                 <div class="stats">
                     <div class="stat-box">
                         <h3>{stats['total_processed']}</h3>
-                        <p>Total People</p>
+                        <p>{'Total Emissions' if stats['pipeline_type'] == 'viajeros' else 'Total People'}</p>
                     </div>
                     <div class="stat-box">
                         <h3>{stats['successful']}</h3>
-                        <p>Successful People</p>
+                        <p>{'Successful Emissions' if stats['pipeline_type'] == 'viajeros' else 'Successful People'}</p>
                     </div>
                     <div class="stat-box">
                         <h3>{stats['failed']}</h3>
-                        <p>Failed People</p>
-                    </div>
-                    <div class="stat-box">
-                        <h3>{stats.get('successful_emissions', stats['successful'])}</h3>
-                        <p>Successful Emissions</p>
-                    </div>
-                    <div class="stat-box">
-                        <h3>{stats.get('total_emissions', stats['total_processed'])}</h3>
-                        <p>Total Emissions</p>
+                        <p>{'Failed Emissions' if stats['pipeline_type'] == 'viajeros' else 'Failed People'}</p>
                     </div>
                     <div class="stat-box">
                         <h3>{stats['success_rate']:.1f}%</h3>
                         <p>Success Rate</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>{stats.get('total_people', 0)}</h3>
+                        <p>Total People</p>
                     </div>
                 </div>
             </div>
@@ -646,7 +642,25 @@ class ErrorHandler:
             </div>
             """
         
-        html_section = f"""
+        # Check if this is individual-level data (from failed_individuals) or emission-level data
+        is_individual_data = any('firstname' in item or 'passport' in item for item in failed_data)
+        
+        if is_individual_data:
+            # This is individual-level data, count unique emissions/facturas
+            unique_emissions = set()
+            for item in failed_data:
+                if 'ticket_id' in item:
+                    unique_emissions.add(item['ticket_id'])
+            
+            html_section = f"""
+            <div class="section">
+                <h2>❌ Failed Emissions (Manual Handling Required)</h2>
+                <p><strong>Total Failed Emissions:</strong> {len(unique_emissions)}</p>
+                <p><strong>Total Failed People:</strong> {len(failed_data)}</p>
+        """
+        else:
+            # This is emission-level data
+            html_section = f"""
             <div class="section">
                 <h2>❌ Failed Emissions (Manual Handling Required)</h2>
                 <p><strong>Total Failed Emissions:</strong> {len(failed_data)}</p>
@@ -657,7 +671,7 @@ class ErrorHandler:
         viajeros_failures = [f for f in failed_data if f.get('pipeline_type') == 'viajeros']
         
         # Show detailed failure information
-        for i, failure in enumerate(failed_data[:10]):  # Show first 10 failures
+        for i, failure in enumerate(failed_data):  # Show all failures
             factura = failure.get('factura', 'Unknown')
             step = failure.get('step', 'Unknown')
             error = failure.get('error', 'Unknown error')
@@ -857,15 +871,48 @@ class ErrorHandler:
         
         return html_section
     
-    def get_si_failed_individuals_data(self):
-        """Get failed individuals data from SI pipeline."""
+    def get_current_process_failed_data(self):
+        """Get failed data from current process only (not historical)."""
         try:
+            if self.pipeline_type == 'si':
+                # For SI, use the latest_failed_individuals.json file
+                failed_individuals_file = '/app/si_pipeline/data/latest_failed_individuals.json'
+                if os.path.exists(failed_individuals_file) and os.path.getsize(failed_individuals_file) > 0:
+                    with open(failed_individuals_file, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                    return data.get('all_failed_individuals', [])
+                
+            elif self.pipeline_type == 'viajeros':
+                # For Viajeros, use the latest_detailed_failures.json file
+                failed_data_file = '/app/viajeros_pipeline/data/latest_detailed_failures.json'
+                if os.path.exists(failed_data_file) and os.path.getsize(failed_data_file) > 0:
+                    with open(failed_data_file, 'r', encoding='utf-8') as f:
+                        return json.load(f)
+            
+            logger.info(f"📊 No current process failed data found for {self.pipeline_type}")
+            return []
+            
+        except Exception as e:
+            logger.error(f"Error reading current process failed data: {e}")
+            return []
+    
+    def get_si_failed_individuals_data(self):
+        """Get failed individuals data from SI pipeline for current process only."""
+        try:
+            # Only use the latest_failed_individuals.json file for current process
             failed_individuals_file = '/app/si_pipeline/data/latest_failed_individuals.json'
-            if os.path.exists(failed_individuals_file):
+            if os.path.exists(failed_individuals_file) and os.path.getsize(failed_individuals_file) > 0:
                 with open(failed_individuals_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)
-                return data.get('all_failed_individuals', [])
+                
+                # Only return failed individuals from the current process run
+                current_failed_individuals = data.get('all_failed_individuals', [])
+                logger.info(f"📊 Found {len(current_failed_individuals)} failed individuals from current process")
+                return current_failed_individuals
+            
+            logger.info("📊 No failed individuals data found for current process")
             return []
+            
         except Exception as e:
             logger.error(f"Error reading SI failed individuals data: {e}")
             return []
@@ -883,13 +930,21 @@ class ErrorHandler:
                 logger.error(f"❌ No execution statistics found for {pipeline_type}")
                 return False
             
-            # Extract key statistics
-            successful = execution_stats.get('successful', 0)
-            failed = execution_stats.get('failed', 0)
-            total_processed = execution_stats.get('total_processed', 0)
-            success_rate = execution_stats.get('success_rate', 0.0)
-            
-            logger.info(f"📊 {pipeline_type} execution stats: {successful} successful, {failed} failed, {total_processed} total")
+            # Extract key statistics - use emissions for Viajeros, people for SI
+            if pipeline_type == 'viajeros':
+                # For Viajeros, use emissions-based statistics
+                successful = execution_stats.get('emisiones', {}).get('exitosas', 0)
+                failed = execution_stats.get('emisiones', {}).get('fallidas', 0)
+                total_processed = execution_stats.get('emisiones', {}).get('total', 0)
+                success_rate = (successful / total_processed * 100) if total_processed > 0 else 0.0
+                logger.info(f"📊 {pipeline_type} execution stats: {successful} successful emissions, {failed} failed emissions, {total_processed} total emissions")
+            else:
+                # For SI, use people-based statistics
+                successful = execution_stats.get('successful', 0)
+                failed = execution_stats.get('failed', 0)
+                total_processed = execution_stats.get('total_processed', 0)
+                success_rate = execution_stats.get('success_rate', 0.0)
+                logger.info(f"📊 {pipeline_type} execution stats: {successful} successful people, {failed} failed people, {total_processed} total people")
             
             # Determine pipeline name
             pipeline_name = "Salud Internacional (SI)" if pipeline_type == 'si' else "Viajeros"
@@ -903,6 +958,7 @@ class ErrorHandler:
                 'successful': successful,
                 'failed': failed,
                 'success_rate': success_rate,
+                'total_people': execution_stats.get('asegurados', {}).get('total', 0) if pipeline_type == 'viajeros' else total_processed,
                 'emails_received': 1,
                 'excel_extracted': True,
                 'pipeline_executed': True,
@@ -914,6 +970,9 @@ class ErrorHandler:
             failed_individuals = None
             if pipeline_type == 'si':
                 failed_individuals = self.get_si_failed_individuals_data()
+            else:
+                # For Viajeros and other pipelines, get current process failed data
+                failed_individuals = self.get_current_process_failed_data()
             
             # Generate and send the report
             return self._send_email_report(stats, error_message, email_subject, failed_individuals)
@@ -1040,18 +1099,9 @@ def send_pipeline_failure_report(pipeline_type: str, error_message: str) -> bool
 def check_pipeline_excel_and_report(pipeline_type: str) -> Tuple[bool, str]:
     """Check Excel file and generate report for specific pipeline."""
     if pipeline_type == 'si':
-        excel_path = "/app/si_pipeline/Comparador_Humano/exceles/Asegurados_SI.xlsx"
         handler = si_error_handler
         
-        # First check if the basic Excel file is valid
-        is_valid, error_message, row_count = handler.check_excel_file(excel_path)
-        
-        if not is_valid:
-            logger.error(f"❌ SI Excel validation failed: {error_message}")
-            handler.handle_error('excel_validation', error_message)
-            return False, error_message
-        
-        # For SI, also check if there are new people after comparison
+        # For SI, check if comparison result file exists and has data
         comparison_path = "/app/si_pipeline/Comparador_Humano/exceles/comparison_result.xlsx"
         has_new_people, comparison_message, new_people_count = handler.validate_si_comparison_result(comparison_path)
         
@@ -1061,7 +1111,7 @@ def check_pipeline_excel_and_report(pipeline_type: str) -> Tuple[bool, str]:
             handler.handle_error('no_new_data', comparison_message)
             return False, comparison_message
         
-        logger.info(f"✅ SI Excel validated successfully: {row_count} rows, {new_people_count} new people to process")
+        logger.info(f"✅ SI Excel validated successfully: {new_people_count} new people to process")
         return True, ""
         
     elif pipeline_type == 'viajeros':
@@ -1080,7 +1130,7 @@ def check_pipeline_excel_and_report(pipeline_type: str) -> Tuple[bool, str]:
         return True, ""
         
     else:
-        excel_path = "/app/Exceles/Rep_Afiliados_Seguro_Viajero 16 06 2025 AL 02 07 2025.xlsx"
+        excel_path = "/app/viajeros_pipeline/Exceles/Rep_Afiliados_Seguro_Viajero 16 06 2025 AL 02 07 2025.xlsx"
         handler = error_handler
         
         is_valid, error_message, row_count = handler.check_excel_file(excel_path)
@@ -1095,7 +1145,7 @@ def check_pipeline_excel_and_report(pipeline_type: str) -> Tuple[bool, str]:
 
 def check_excel_and_report() -> Tuple[bool, str]:
     """Check Excel file and generate report. Returns (is_valid, error_message)."""
-    excel_path = "/app/Exceles/Asegurados_Viajeros.xlsx"
+    excel_path = "/app/viajeros_pipeline/Exceles/Asegurados_Viajeros.xlsx"
     
     is_valid, error_message, row_count = error_handler.check_excel_file(excel_path)
     

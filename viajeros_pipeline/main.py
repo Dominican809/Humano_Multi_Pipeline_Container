@@ -26,7 +26,7 @@ def run_viajeros_pipeline():
         if not is_automated:
             input("Presiona Enter para empezar a cargar las emisiones desde excel:")
         logger.info("📊 Loading emissions from Excel...")
-        cargar_emisiones_desde_excel("Exceles/Asegurados_Viajeros.xlsx", "emisiones_generadas.json")
+        cargar_emisiones_desde_excel("/app/viajeros_pipeline/Exceles/Asegurados_Viajeros.xlsx", "/app/viajeros_pipeline/emisiones_generadas.json")
         logger.info("✅ Excel to JSON conversion completed")
         
         return True
@@ -37,7 +37,7 @@ def run_viajeros_pipeline():
         logger.error(f"Traceback: {traceback.format_exc()}")
         return False
 
-def test_multiple_emissions(json_path: str = "emisiones_generadas.json", num_emissions: int = 1) -> bool:
+def test_multiple_emissions(json_path: str = "/app/viajeros_pipeline/emisiones_generadas.json", num_emissions: int = 1) -> bool:
     """
     Prueba el procesamiento de emisiones (puede ser una sola o múltiples).
     
@@ -50,7 +50,7 @@ def test_multiple_emissions(json_path: str = "emisiones_generadas.json", num_emi
     """
     try:
         # Crear directorio data si no existe
-        data_dir = Path("data")
+        data_dir = Path("/app/viajeros_pipeline/data")
         data_dir.mkdir(exist_ok=True)
         
         # Crear archivo temporal con las primeras N emisiones
@@ -105,20 +105,20 @@ def main():
     """
     # Configurar logging
     logger.remove()
-    logger.add("logs/emisor.log", rotation="500 MB", level="DEBUG")
+    logger.add("/app/viajeros_pipeline/logs/emisor.log", rotation="500 MB", level="DEBUG")
     logger.add(lambda msg: print(msg), level="INFO")
     
     # Verificar argumentos
     if len(sys.argv) > 1:
         if sys.argv[1] == "--test":
             # Modo prueba con emisiones (default: 1 emisión)
-            json_path = sys.argv[2] if len(sys.argv) > 2 else "emisiones_generadas.json"
+            json_path = sys.argv[2] if len(sys.argv) > 2 else "/app/viajeros_pipeline/emisiones_generadas.json"
             num_emissions = int(sys.argv[3]) if len(sys.argv) > 3 else 1
             return 0 if test_multiple_emissions(json_path, num_emissions) else 1
         else:
             json_path = sys.argv[1]
     else:
-        json_path = "emisiones_generadas.json"
+        json_path = "/app/viajeros_pipeline/emisiones_generadas.json"
         
     logger.info(f"🚀 Iniciando procesamiento de emisiones desde {json_path}")
     
@@ -193,8 +193,8 @@ def main():
         
         # Save statistics to the new unified system
         try:
-            import sys
-            sys.path.append('/app/shared')
+            import sys as sys_module
+            sys_module.path.append('/app/shared')
             from statistics_manager import save_pipeline_execution_stats
             
             # Save to unified statistics system

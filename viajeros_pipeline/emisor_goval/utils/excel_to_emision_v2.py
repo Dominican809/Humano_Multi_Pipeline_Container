@@ -366,7 +366,7 @@ def cargar_emisiones_desde_excel(excel_path, output_path=None):
 
 """
 if __name__ == "__main__":
-    EXCEL_PATH = "Exceles/Asegurados_Viajeros.xlsx"
-    OUTPUT_PATH = "emisiones_generadas.json"
+    EXCEL_PATH = "/app/viajeros_pipeline/Exceles/Asegurados_Viajeros.xlsx"
+    OUTPUT_PATH = "/app/viajeros_pipeline/emisiones_generadas.json"
     cargar_emisiones_desde_excel(EXCEL_PATH, OUTPUT_PATH) 
 """

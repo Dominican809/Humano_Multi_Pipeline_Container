@@ -363,6 +363,6 @@ def cargar_emisiones_desde_excel(excel_path, output_path=None):
         raise
 
 if __name__ == "__main__":
-    EXCEL_PATH = "Exceles/Asegurados_Viajeros.xlsx"
-    OUTPUT_PATH = "emisiones_generadas.json"
+    EXCEL_PATH = "/app/si_pipeline/Comparador_Humano/exceles/Asegurados_SI.xlsx"
+    OUTPUT_PATH = "/app/si_pipeline/emisiones_generadas.json"
     cargar_emisiones_desde_excel(EXCEL_PATH, OUTPUT_PATH) 

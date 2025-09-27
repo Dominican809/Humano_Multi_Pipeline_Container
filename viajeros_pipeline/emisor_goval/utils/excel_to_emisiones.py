@@ -213,6 +213,6 @@ def cargar_emisiones_desde_excel(excel_path, output_path=None):
         raise
 
 if __name__ == "__main__":
-    EXCEL_PATH = "Exceles/Rep_Afiliados_Seguro_Viajero 16 06 2025 AL 02 07 2025.xlsx"
-    OUTPUT_PATH = "emisiones_generadas.json"
+    EXCEL_PATH = "/app/viajeros_pipeline/Exceles/Rep_Afiliados_Seguro_Viajero 16 06 2025 AL 02 07 2025.xlsx"
+    OUTPUT_PATH = "/app/viajeros_pipeline/emisiones_generadas.json"
     cargar_emisiones_desde_excel(EXCEL_PATH, OUTPUT_PATH) 

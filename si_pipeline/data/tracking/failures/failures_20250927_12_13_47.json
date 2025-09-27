@@ -1,0 +1,235 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "202509271213",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 26,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "3151038-0",
+              "firstname": "ALEJANDRO ARTURO",
+              "lastname": "LIRIANO ROA",
+              "birthdate": "1988-10-28"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "1222257-4",
+              "firstname": "AMAIA",
+              "lastname": "QUEZADA VAN DER MEIJ",
+              "birthdate": "2021-11-01"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "2485169-1",
+              "firstname": "ARTURO VALENTIN",
+              "lastname": "CASTILLO QUEZADA",
+              "birthdate": "2019-05-12"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "3152769-1",
+              "firstname": "CAMILA MARIA",
+              "lastname": "FILPO ALMONTE",
+              "birthdate": "2000-05-29"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "3152771-0",
+              "firstname": "CARLA MARIA",
+              "lastname": "FILPO ALMONTE",
+              "birthdate": "1998-10-30"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "3152769-2",
+              "firstname": "CARMEN MARIA",
+              "lastname": "FILPO ALMONTE",
+              "birthdate": "2002-01-11"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "1222257-0",
+              "firstname": "EDWIM ARTURO",
+              "lastname": "QUEZADA CAMACHO",
+              "birthdate": "1978-09-11"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "3152770-1",
+              "firstname": "GISELA MARIA",
+              "lastname": "FILPO ALMONTE",
+              "birthdate": "2005-10-22"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "3152985-0",
+              "firstname": "JOHANNY",
+              "lastname": "MARTINEZ GUZMAN",
+              "birthdate": "1973-01-10"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "1222257-2",
+              "firstname": "JORIEN",
+              "lastname": "VAN DER MEIJ",
+              "birthdate": "1984-10-14"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "3152769-0",
+              "firstname": "JUAN CARLOS",
+              "lastname": "FILPO CASTILLO",
+              "birthdate": "1972-07-29"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "3150734-3",
+              "firstname": "LUCIA",
+              "lastname": "HIGUERAS PEREZ",
+              "birthdate": "2009-08-31"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "3150734-2",
+              "firstname": "MAR",
+              "lastname": "HIGUERAS PEREZ",
+              "birthdate": "2017-08-23"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "2485169-0",
+              "firstname": "MARINELLY",
+              "lastname": "QUEZADA CASTILLO",
+              "birthdate": "1986-09-12"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "1222257-1",
+              "firstname": "MATIAS ARTURO",
+              "lastname": "QUEZADA VAN DER MEIJ",
+              "birthdate": "2017-01-22"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "3152770-0",
+              "firstname": "MICELSA DE JESUS",
+              "lastname": "ALMONTE BUENO DE FILPO",
+              "birthdate": "1966-05-01"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "9229083-0",
+              "firstname": "MIGUEL ARTURO",
+              "lastname": "QUEZADA BATISTA",
+              "birthdate": "1998-02-27"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "2485169-2",
+              "firstname": "NELL MARIT",
+              "lastname": "CASTILLO QUEZADA",
+              "birthdate": "2022-04-08"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "1222257-3",
+              "firstname": "OLIVIA",
+              "lastname": "QUEZADA VAN DER MEIJ",
+              "birthdate": "2020-06-03"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "3150734-0",
+              "firstname": "PATRICIA IRENE",
+              "lastname": "PEREZ VICTORIO",
+              "birthdate": "1979-11-29"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "1110985-5",
+              "firstname": "RODRIGO",
+              "lastname": "SANCHEZ FERNANDEZ",
+              "birthdate": "2025-08-25"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "3150734-1",
+              "firstname": "XAVIER",
+              "lastname": "HIGUERAS PEREZ",
+              "birthdate": "2014-01-14"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "3152985-1",
+              "firstname": "YAZMIN ALEXANDRA",
+              "lastname": "HENRIQUEZ LLANO",
+              "birthdate": "1982-09-20"
+            },
+            {
+              "ticket_id": "HUM-C9011-C506",
+              "identity": null,
+              "passport": "3152985-2",
+              "firstname": "YOHELANNY ALTAGRACIA",
+              "lastname": "MARTINEZ HENRIQUEZ",
+              "birthdate": "2004-05-26"
+            },
+            {
+              "ticket_id": "HUM-9AC35-0A13",
+              "identity": null,
+              "passport": "3154014-0",
+              "firstname": "JULIO JOSE",
+              "lastname": "DUVERGE FRANCISCO",
+              "birthdate": "1997-07-31"
+            },
+            {
+              "ticket_id": "HUM-9AC35-0A13",
+              "identity": null,
+              "passport": "9207280-2",
+              "firstname": "VITTORIA SOFIA",
+              "lastname": "VELUTINI BRASCHI",
+              "birthdate": "2025-08-22"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/3183/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    }
+  ]
+}

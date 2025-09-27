@@ -1,0 +1,25 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "202509261930",
+      "step": "cotizacion",
+      "error": "No se pudo crear la cotización",
+      "num_asegurados": 39,
+      "error_details": {
+        "status_code": 415,
+        "api_response": {
+          "error": true,
+          "message": {
+            "insured": [
+              "insured sin identificación"
+            ]
+          }
+        },
+        "validation_codes": [],
+        "validation_messages": [
+          "insured: insured sin identificación"
+        ]
+      }
+    }
+  ]
+}

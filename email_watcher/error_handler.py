@@ -29,7 +29,7 @@ try:
     def check_excel_and_report() -> tuple[bool, str]:
         """Check Excel file and generate report. Returns (is_valid, error_message)."""
         # Use the legacy path for backward compatibility
-        excel_path = "/app/Exceles/Rep_Afiliados_Seguro_Viajero 16 06 2025 AL 02 07 2025.xlsx"
+        excel_path = "/app/viajeros_pipeline/Exceles/Rep_Afiliados_Seguro_Viajero 16 06 2025 AL 02 07 2025.xlsx"
         
         is_valid, error_message, row_count = shared_error_handler.check_excel_file(excel_path)
         

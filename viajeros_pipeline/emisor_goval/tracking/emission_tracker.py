@@ -9,7 +9,7 @@ from typing import Dict, List, Optional
 from loguru import logger
 
 class EmissionTracker:
-    def __init__(self, tracking_dir: str = "data/tracking"):
+    def __init__(self, tracking_dir: str = "/app/viajeros_pipeline/data/tracking"):
         self.tracking_dir = Path(tracking_dir)
         self.tracking_dir.mkdir(parents=True, exist_ok=True)
         

@@ -37,7 +37,7 @@ COPY ../.env ./
 RUN chmod +x /app/run_pipeline.sh /app/health_check.py
 
 # Create necessary directories
-RUN mkdir -p /app/logs /app/data /app/Exceles
+RUN mkdir -p /app/logs /app/data
 
 # Create volume for persistent state
 VOLUME ["/state"]

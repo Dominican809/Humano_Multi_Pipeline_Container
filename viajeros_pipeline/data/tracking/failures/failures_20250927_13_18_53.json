@@ -1,0 +1,470 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4638452",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-3185C-3B1C",
+              "identity": null,
+              "passport": "3154523-0",
+              "firstname": "MIGUEL ANGEL",
+              "lastname": "PEROZO ALONZO",
+              "birthdate": "1940-07-04"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/3184/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    },
+    {
+      "factura": "4638466",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-32E99-2DD3",
+              "identity": null,
+              "passport": "3154525-0",
+              "firstname": "FELICIA JUSTA",
+              "lastname": "PEROZO DE REYES",
+              "birthdate": "1944-07-08"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/3185/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    },
+    {
+      "factura": "4638492",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-137D9-512D",
+              "identity": null,
+              "passport": "9050695-0",
+              "firstname": "JUARIS HEIDY",
+              "lastname": "MONERO AVILA",
+              "birthdate": "1993-10-10"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/3186/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    },
+    {
+      "factura": "4638506",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 2,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-5983B-7D75",
+              "identity": null,
+              "passport": "794157-0",
+              "firstname": "DORIS MERCEDES",
+              "lastname": "PEA CALDERON DE MENDEZ",
+              "birthdate": "1966-09-09"
+            },
+            {
+              "ticket_id": "HUM-5983B-7D75",
+              "identity": null,
+              "passport": "794157-6",
+              "firstname": "JUSTO",
+              "lastname": "MENDEZ",
+              "birthdate": "1963-05-26"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/3187/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    },
+    {
+      "factura": "4638536",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-919A0-B10E",
+              "identity": null,
+              "passport": "2588123-0",
+              "firstname": "HUGO ANEURI",
+              "lastname": "ARCHBOLD RAMOS",
+              "birthdate": "1987-08-12"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/3188/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    },
+    {
+      "factura": "4638554",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 2,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-20E12-B40C",
+              "identity": null,
+              "passport": "558265-0",
+              "firstname": "LEANDRO AUGUSTO",
+              "lastname": "PERELLO JORGE",
+              "birthdate": "1967-07-28"
+            },
+            {
+              "ticket_id": "HUM-20E12-B40C",
+              "identity": null,
+              "passport": "284668-0",
+              "firstname": "ROGELIO ENRIQUE",
+              "lastname": "ZIMBRON MARCHEBOUT",
+              "birthdate": "1977-07-12"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/3189/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    },
+    {
+      "factura": "4638556",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-6986C-E525",
+              "identity": null,
+              "passport": "3140279-0",
+              "firstname": "ANDREA OSIDIA",
+              "lastname": "FELIZ LEBRON",
+              "birthdate": "1958-10-12"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/3190/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    },
+    {
+      "factura": "4638561",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-259AE-9B8F",
+              "identity": null,
+              "passport": "2307655-1",
+              "firstname": "AIMEE",
+              "lastname": "RODRIGUEZ DE LEON",
+              "birthdate": "1992-11-03"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/3191/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    },
+    {
+      "factura": "4638562",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-BF9D4-48F4",
+              "identity": null,
+              "passport": "9330825-0",
+              "firstname": "SOTERO LEONTE",
+              "lastname": "ESPIRITUSANTO PANIAGUA",
+              "birthdate": "1969-04-10"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/3192/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    },
+    {
+      "factura": "4638582",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-A9816-ED9D",
+              "identity": null,
+              "passport": "878559-2",
+              "firstname": "MARCIA GISELLE",
+              "lastname": "MORENO PAULINO",
+              "birthdate": "1997-08-04"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/3193/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    },
+    {
+      "factura": "4638589",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-0D642-7E46",
+              "identity": null,
+              "passport": "3154575-0",
+              "firstname": "DANILO ANTONIO",
+              "lastname": "ABREU ABREU",
+              "birthdate": "1946-03-27"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/3194/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    },
+    {
+      "factura": "4638604",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 3,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-64A26-B80B",
+              "identity": null,
+              "passport": "3154382-0",
+              "firstname": "CRISTOPHER",
+              "lastname": "RODRIGUEZ COLLADO",
+              "birthdate": "1996-01-14"
+            },
+            {
+              "ticket_id": "HUM-64A26-B80B",
+              "identity": null,
+              "passport": "3154578-0",
+              "firstname": "LAURA ISABEL",
+              "lastname": "CRUZ ACOSTA",
+              "birthdate": "1996-07-04"
+            },
+            {
+              "ticket_id": "HUM-64A26-B80B",
+              "identity": null,
+              "passport": "3154578-1",
+              "firstname": "MONTSERRAT",
+              "lastname": "RODRIGUEZ CRUZ",
+              "birthdate": "2025-01-17"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/3195/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    },
+    {
+      "factura": "4638611",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-F1705-91FF",
+              "identity": null,
+              "passport": "3154384-0",
+              "firstname": "JENNIFER",
+              "lastname": "ALTAGRACIA ARIAS LIRIANO",
+              "birthdate": "1997-07-19"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/3196/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    },
+    {
+      "factura": "4638616",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-768CC-5DE9",
+              "identity": null,
+              "passport": "3141674-0",
+              "firstname": "ELVIA MERCEDES",
+              "lastname": "SANTOS CORDERO",
+              "birthdate": "1985-03-24"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/3197/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    }
+  ]
+}

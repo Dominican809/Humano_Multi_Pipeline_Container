@@ -169,17 +169,53 @@ def run_si_pipeline(excel_file_path, email_subject=None):
         
         logger.info(f"[manager] ✅ New SI file copied successfully")
         
-        # Check Excel file and report
+        # Run comparison first to generate comparison_result.xlsx
+        logger.info(f"[manager] 🔍 Running SI comparison to identify new people...")
+        comparison_result = subprocess.run([
+            "python", "-c",
+            f"""
+import sys
+sys.path.append('/app/si_pipeline')
+from Comparador_Humano.comparador_SI import comparador_SI
+result = comparador_SI()
+print(f'Comparison result: {{result}}')
+if isinstance(result, tuple):
+    success, new_count, removed_count = result
+    print(f'Success: {{success}}, New: {{new_count}}, Removed: {{removed_count}}')
+    if new_count == 0:
+        print('NO_NEW_PEOPLE')
+    else:
+        print(f'NEW_PEOPLE_FOUND: {{new_count}}')
+else:
+    print('COMPARISON_FAILED')
+"""
+        ], capture_output=True, text=True, cwd='/app/si_pipeline')
+        
+        if comparison_result.returncode != 0:
+            logger.error(f"[manager] ❌ SI comparison failed: {comparison_result.stderr}")
+            coordinator.complete_pipeline('si', session_id, success=False, error_message=f"SI comparison failed: {comparison_result.stderr}")
+            return False
+        
+        # Check if there are new people to process
+        if "NO_NEW_PEOPLE" in comparison_result.stdout:
+            logger.info(f"[manager] ℹ️ No new SI people found - running corrected pipeline to save statistics")
+        elif "NEW_PEOPLE_FOUND" in comparison_result.stdout:
+            new_count = comparison_result.stdout.split("NEW_PEOPLE_FOUND: ")[1].split()[0]
+            logger.info(f"[manager] ✅ Found {new_count} new SI people to process")
+        else:
+            logger.warning(f"[manager] ⚠️ Unexpected comparison result: {comparison_result.stdout}")
+        
+        # Now validate the comparison result
         is_valid, error_message = check_pipeline_excel_and_report('si')
         if not is_valid:
             logger.error(f"[manager] ❌ Excel validation failed: {error_message}")
             # Check if this is a "no new people" case vs actual error
             if "no processing needed" in error_message.lower() or "no new people" in error_message.lower():
-                logger.info(f"[manager] ℹ️ No new SI people to process - completing pipeline with success")
-                coordinator.complete_pipeline('si', session_id, success=True, error_message=error_message)
+                logger.info(f"[manager] ℹ️ No new SI people to process - running corrected pipeline to save statistics")
+                # Continue to run the corrected pipeline to save proper statistics
             else:
                 coordinator.complete_pipeline('si', session_id, success=False, error_message=f"Excel validation failed: {error_message}")
-            return False
+                return False
         
         # Run the corrected SI pipeline with individual filtering
         result = subprocess.run([
@@ -192,33 +228,34 @@ from datetime import datetime
 sys.path.append('/app/si_pipeline')
 os.environ['AUTOMATED_MODE'] = 'true'
 try:
-    from corrected_main import run_si_pipeline_with_corrected_filtering
-    print('[si] Starting corrected SI pipeline with individual filtering...')
-    success, successful_emissions, failed_individuals_data, all_failed_individuals = run_si_pipeline_with_corrected_filtering()
+    from main import run_si_pipeline
+    print('[si] Starting unified SI pipeline with individual filtering...')
+    success, successful_emissions, failed_individuals_data, all_failed_individuals = run_si_pipeline()
     
     if success:
-        print(f'[si] Corrected SI pipeline completed successfully')
+        print(f'[si] Unified SI pipeline completed successfully')
         print(f'[si] Results:')
         print(f'[si]   - Successful emissions: {{len(successful_emissions)}}')
         print(f'[si]   - Failed individuals data: {{len(failed_individuals_data)}}')
         print(f'[si]   - Total failed individuals: {{len(all_failed_individuals)}}')
         
         # Store failed individuals data for email reporting
-        if failed_individuals_data:
-            print(f'[si] Storing failed individuals data for email reporting...')
-            with open('/app/si_pipeline/data/latest_failed_individuals.json', 'w') as f:
-                json.dump({{
-                    'failed_individuals_data': failed_individuals_data,
-                    'all_failed_individuals': all_failed_individuals,
-                    'email_subject': '{email_subject}',
-                    'timestamp': datetime.now().isoformat()
-                }}, f, indent=2)
-            print(f'[si] Failed individuals data stored successfully')
+        # Always create latest_failed_individuals.json file for error handler
+        print(f'[si] Creating latest_failed_individuals.json for error handler...')
+        with open('/app/si_pipeline/data/latest_failed_individuals.json', 'w') as f:
+            json.dump({{
+                'failed_individuals_data': failed_individuals_data if failed_individuals_data else [],
+                'all_failed_individuals': all_failed_individuals if all_failed_individuals else [],
+                'email_subject': '{email_subject}',
+                'timestamp': datetime.now().isoformat(),
+                'process_completed': True
+            }}, f, indent=2)
+        print(f'[si] Latest failed individuals data stored successfully')
     else:
-        print('[si] Corrected SI pipeline failed')
+        print('[si] Unified SI pipeline failed')
         sys.exit(1)
 except Exception as e:
-    print(f'[si] ERROR in corrected SI pipeline: {{e}}')
+    print(f'[si] ERROR in unified SI pipeline: {{e}}')
     import traceback
     print(f'[si] Traceback: {{traceback.format_exc()}}')
     sys.exit(1)
@@ -228,10 +265,8 @@ except Exception as e:
         if result.returncode == 0:
             logger.info("[manager] ✅ SI pipeline completed successfully")
             
-            # Update the old file with the new file for next comparison
-            logger.info("[manager] 🔄 Updating old file for next comparison...")
-            os.system(f"cp '{new_file}' '{old_file}'")
-            logger.info("[manager] ✅ Old file updated successfully")
+            # File exchange is handled by comparador_SI.py, no need to do it here
+            logger.info("[manager] ✅ File exchange handled by comparador_SI.py")
             
             coordinator.complete_pipeline('si', session_id, success=True)
         else:

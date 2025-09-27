@@ -1,0 +1,331 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "202509271213",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 38,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "40216514279",
+              "passport": "2242667-3",
+              "firstname": "ANABELLA VALENTINA",
+              "lastname": "PAULINO AVELLANEDA",
+              "birthdate": "2014-10-06"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": null,
+              "passport": "1893501-3",
+              "firstname": "ARTHUR",
+              "lastname": "HEYER FERNANDEZ",
+              "birthdate": "2012-12-27"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "05400117148",
+              "passport": "389515-1",
+              "firstname": "BARBARA YSABEL",
+              "lastname": "PERDOMO DE LA MAZA",
+              "birthdate": "1970-04-22"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "00118572262",
+              "passport": "2309930-0",
+              "firstname": "BIENVENIDO ALBERTO",
+              "lastname": "PAULINO JIMENEZ",
+              "birthdate": "1990-08-02"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "40212371237",
+              "passport": "2237000-2",
+              "firstname": "CAMILA",
+              "lastname": "LARRAURI GONZALEZ",
+              "birthdate": "1999-05-23"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "40219486020",
+              "passport": "217631-4",
+              "firstname": "CARLOS MANUEL",
+              "lastname": "ISIDOR COLON",
+              "birthdate": "2002-06-29"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "40223935293",
+              "passport": "9989466-2",
+              "firstname": "CARY GERALMI",
+              "lastname": "RAMIREZ BERROA",
+              "birthdate": "1995-09-05"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "00101476547",
+              "passport": "278043-0",
+              "firstname": "CESARINA CAMELIA",
+              "lastname": "MOREL GRULLON",
+              "birthdate": "1952-08-22"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "00118195940",
+              "passport": "9375998-0",
+              "firstname": "CLAUDIA MICHELLE",
+              "lastname": "LESLIE MARTINEZ",
+              "birthdate": "1987-10-06"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": null,
+              "passport": "2237000-4",
+              "firstname": "DANIELA",
+              "lastname": "LARRAURI GONZALEZ",
+              "birthdate": "2006-11-28"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "03102392010",
+              "passport": "217631-5",
+              "firstname": "EVELYN",
+              "lastname": "COLON CRUZ",
+              "birthdate": "1976-04-07"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "00112797113",
+              "passport": "1893501-0",
+              "firstname": "HARALD LUTZ",
+              "lastname": "HEYER",
+              "birthdate": "1961-01-18"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "05400729173",
+              "passport": "218084-3",
+              "firstname": "JOSE  RAFAEL",
+              "lastname": "COMPRES BENCOSME",
+              "birthdate": "1942-03-19"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": null,
+              "passport": "2237000-3",
+              "firstname": "JOSE MARIA",
+              "lastname": "LARRAURI GONZALEZ",
+              "birthdate": "2002-06-24"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "40227372667",
+              "passport": "218084-2",
+              "firstname": "JOSE RAFAEL ",
+              "lastname": "COMPRES PAULINO",
+              "birthdate": "1999-01-20"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "40220537167",
+              "passport": "3106666-0",
+              "firstname": "LORAINE YOKASTA",
+              "lastname": "GONZALEZ CRUZ",
+              "birthdate": "1992-11-14"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "05400451737",
+              "passport": "389506-1",
+              "firstname": "MARIA ALTAGRACIA",
+              "lastname": "JIMENEZ MORILLO",
+              "birthdate": "1965-07-31"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "03102812074",
+              "passport": "2904075-0",
+              "firstname": "MARIA GUADALUPE",
+              "lastname": "PEREZ GRULLON DE ALBA",
+              "birthdate": "1966-04-08"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": null,
+              "passport": "2242667-1",
+              "firstname": "MARIA VALENTINA",
+              "lastname": "AVELLANEDA RAMIREZ",
+              "birthdate": "1990-06-22"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "40203192261",
+              "passport": "2242667-2",
+              "firstname": "MATTIAS  ALBERTO",
+              "lastname": "PAULINO AVELLANEDA",
+              "birthdate": "2011-08-30"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "04700230396",
+              "passport": "1893501-1",
+              "firstname": "MILDRED",
+              "lastname": "FERNANDEZ MARCANO",
+              "birthdate": "1974-12-22"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "00112226725",
+              "passport": "2237000-1",
+              "firstname": "MONICA",
+              "lastname": "GONZALEZ",
+              "birthdate": "1972-01-27"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "05400438817",
+              "passport": "389512-1",
+              "firstname": "ORLANDO RAMON",
+              "lastname": "GARCIA ARIAS",
+              "birthdate": "1946-03-10"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "03101912198",
+              "passport": "217631-0",
+              "firstname": "OSIRIS RAFAEL",
+              "lastname": "ISIDOR RODRIGUEZ",
+              "birthdate": "1965-09-15"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "03105683621",
+              "passport": "389515-3",
+              "firstname": "PAOLA",
+              "lastname": "PAULINO PERDOMO",
+              "birthdate": "1995-12-05"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "40200599849",
+              "passport": "6675844-3",
+              "firstname": "PAULA CAMILA",
+              "lastname": "DOMINGUEZ ESPINOSA",
+              "birthdate": "1995-03-07"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "05400457098",
+              "passport": "389506-0",
+              "firstname": "RAMON ALBERTO",
+              "lastname": "PAULINO CUEVAS",
+              "birthdate": "1962-05-24"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "00117656553",
+              "passport": "2242667-0",
+              "firstname": "RAMON ALBERTO",
+              "lastname": "PAULINO JIMENEZ",
+              "birthdate": "1986-08-09"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "05401391692",
+              "passport": "2673093-0",
+              "firstname": "RAMON DAVID",
+              "lastname": "PAULINO ALMANZAR",
+              "birthdate": "1989-09-11"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": null,
+              "passport": "389515-4",
+              "firstname": "RAMON ISIDRO",
+              "lastname": "PAULINO",
+              "birthdate": "2002-05-01"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "05400614581",
+              "passport": "389515-0",
+              "firstname": "RAMON YSIDRO",
+              "lastname": "PAULINO CUEVAS",
+              "birthdate": "1967-08-24"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "40211015009",
+              "passport": "2904075-2",
+              "firstname": "RODOLFO EMILIO",
+              "lastname": "ALBA PEREZ",
+              "birthdate": "1997-10-17"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "00100640382",
+              "passport": "2237000-0",
+              "firstname": "RYAN",
+              "lastname": "LARRAURI GOMEZ",
+              "birthdate": "1972-02-02"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "40219334998",
+              "passport": "217631-6",
+              "firstname": "SARAY",
+              "lastname": "ISIDOR RIVAS",
+              "birthdate": "2001-10-23"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": null,
+              "passport": "2904075-1",
+              "firstname": "SEBASTIAN",
+              "lastname": "ALBA PEREZ",
+              "birthdate": "2005-01-26"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "05400145867",
+              "passport": "218084-0",
+              "firstname": "SOVEYDA M. DE JESUS",
+              "lastname": "PAULINO CUEVAS",
+              "birthdate": "1965-01-24"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "05400145875",
+              "passport": "389504-0",
+              "firstname": "VIOLA ELIZABETH",
+              "lastname": "PAULINO CUEVAS",
+              "birthdate": "1970-04-01"
+            },
+            {
+              "ticket_id": "HUM-6C971-F77B",
+              "identity": "05400106422",
+              "passport": "389512-0",
+              "firstname": "VIOLETA MERCEDES",
+              "lastname": "CUEVAS FERNANDEZ",
+              "birthdate": "1941-05-28"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/3182/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    }
+  ]
+}
