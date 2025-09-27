@@ -341,10 +341,28 @@ class PipelineCoordinator:
             # Use the new unified email reporting system
             from .error_handler import ErrorHandler
             
+            # Get error message from session if available
+            error_message = self._get_error_message_from_session(session_id, pipeline_type)
+            
+            # For SI pipeline, check if this was a "no new people" case
+            if pipeline_type == 'si' and not error_message:
+                # Check if the pipeline failed due to no new people
+                with sqlite3.connect(str(self.coordination_db)) as conn:
+                    cursor = conn.cursor()
+                    cursor.execute("""
+                        SELECT error_message FROM pipeline_executions 
+                        WHERE session_id = ? AND pipeline_type = ?
+                        ORDER BY started_at DESC LIMIT 1
+                    """, (session_id, pipeline_type))
+                    result = cursor.fetchone()
+                    if result and result[0] and "no new people" in result[0].lower():
+                        error_message = result[0]
+            
             error_handler = ErrorHandler(pipeline_type)
             success = error_handler.send_unified_pipeline_report(
                 pipeline_type=pipeline_type,
-                email_subject=email_subject
+                email_subject=email_subject,
+                error_message=error_message
             )
             
             if success:
@@ -691,6 +709,24 @@ class PipelineCoordinator:
         except Exception as e:
             logger.error(f"❌ Failed to get session status: {e}")
             return {}
+    
+    def _get_error_message_from_session(self, session_id: str, pipeline_type: str) -> str:
+        """Get the error message from the session for reporting."""
+        try:
+            with sqlite3.connect(str(self.coordination_db)) as conn:
+                cursor = conn.cursor()
+                cursor.execute("""
+                    SELECT error_message FROM pipeline_executions 
+                    WHERE session_id = ? AND pipeline_type = ?
+                    ORDER BY started_at DESC LIMIT 1
+                """, (session_id, pipeline_type))
+                
+                result = cursor.fetchone()
+                return result[0] if result and result[0] else ""
+                
+        except Exception as e:
+            logger.error(f"❌ Error getting error message for session {session_id}: {e}")
+            return ""
 
 # Global coordinator instance
 coordinator = PipelineCoordinator()

@@ -926,7 +926,12 @@ class ErrorHandler:
             # Get the latest execution statistics
             execution_stats = get_pipeline_execution_stats(pipeline_type)
             
-            if not execution_stats:
+            # For SI pipeline, if no new people were processed, skip unified report
+            # because the validation already sent a proper report with zero statistics
+            if pipeline_type == 'si' and error_message and "no new people" in error_message.lower():
+                logger.info(f"📊 Skipping unified report for SI pipeline - validation already sent zero statistics report")
+                return True
+            elif not execution_stats:
                 logger.error(f"❌ No execution statistics found for {pipeline_type}")
                 return False
             
@@ -1066,11 +1071,38 @@ class ErrorHandler:
         # Special handling for "no data" cases - these are not failures
         if error_type == 'no_new_data':
             logger.info(f"ℹ️ No new data to process: {error_message}")
-            # Send success report with informational message
-            return self.send_report(email_received=True, excel_extracted=True, pipeline_success=True, error_message=f"ℹ️ {error_message}")
+            # Send success report with zero statistics for no new people
+            return self._send_no_new_data_report(error_message)
         
         # Send error report
         return self.send_report(email_received, excel_extracted, pipeline_success, error_message)
+    
+    def _send_no_new_data_report(self, error_message: str) -> bool:
+        """Send a report with zero statistics for no new data cases."""
+        try:
+            # Create zero statistics for the current process
+            stats = {
+                'date': datetime.now().strftime('%Y%m%d'),
+                'pipeline_type': self.pipeline_type,
+                'pipeline_name': self.pipeline_name,
+                'total_processed': 0,
+                'successful': 0,
+                'failed': 0,
+                'success_rate': 0.0,
+                'total_people': 0,
+                'emails_received': 1,
+                'excel_extracted': True,
+                'pipeline_executed': True,
+                'run_time': datetime.now().strftime('%H:%M:%S'),
+                'run_timestamp': datetime.now().isoformat()
+            }
+            
+            # Send the report with zero statistics
+            return self._send_email_report(stats, f"ℹ️ {error_message}", None, [])
+            
+        except Exception as e:
+            logger.error(f"❌ Error sending no new data report: {e}")
+            return False
 
 # Global error handler instances
 error_handler = ErrorHandler()  # Default combined handler
@@ -1108,6 +1140,7 @@ def check_pipeline_excel_and_report(pipeline_type: str) -> Tuple[bool, str]:
         if not has_new_people:
             logger.warning(f"⚠️ SI comparison validation: {comparison_message}")
             # This is not an error, just no new people to process
+            # Send a report with zero statistics for no new people
             handler.handle_error('no_new_data', comparison_message)
             return False, comparison_message
         
