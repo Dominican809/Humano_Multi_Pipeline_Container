@@ -126,16 +126,20 @@ def process_si_emission_with_retry(json_path="/app/si_pipeline/emision_unica.jso
         failed_individuals_data = []
         all_failed_individuals = []
         
-        for factura, error_data in emisiones_fallidas.items():
-            if 'error_details' in error_data and 'api_response' in error_data['error_details']:
-                api_response = error_data['error_details']['api_response']
+        # emisiones_fallidas is a LIST, not a dict!
+        for failed_emission in emisiones_fallidas:
+            factura = failed_emission.get('factura')
+            error_details = failed_emission.get('error_details', {})
+            
+            if 'api_response' in error_details:
+                api_response = error_details['api_response']
                 failed_individuals = extract_failed_individuals_from_api_response(api_response)
                 
                 if failed_individuals:
                     failed_individuals_data.append({
                         "factura": factura,
                         "api_failed_individuals": failed_individuals,
-                        "error_details": error_data['error_details']
+                        "error_details": error_details
                     })
                     all_failed_individuals.extend(failed_individuals)
         
@@ -156,9 +160,9 @@ def process_si_emission_with_retry(json_path="/app/si_pipeline/emision_unica.jso
                     output_errors_path="/app/si_pipeline/data/failed_emissions_filtered.json"
                 )
                 
-                # Combine results
-                emisiones_exitosas.update(emisiones_exitosas_filtered)
-                emisiones_fallidas.update(emisiones_fallidas_filtered)
+                # Combine results (both are LISTS, not dicts!)
+                emisiones_exitosas.extend(emisiones_exitosas_filtered)
+                emisiones_fallidas.extend(emisiones_fallidas_filtered)
                 
                 logger.info(f"✅ Retry completed. Total successful: {len(emisiones_exitosas)}")
         
@@ -168,9 +172,17 @@ def process_si_emission_with_retry(json_path="/app/si_pipeline/emision_unica.jso
             sys_module.path.append('/app/shared')
             from statistics_manager import save_pipeline_execution_stats
             
-            # Calculate statistics
-            successful_people = sum(len(emision.get('emision', {}).get('insured', [])) for emision in emisiones_exitosas.values())
-            failed_people = len(all_failed_individuals)
+            # Calculate statistics - total people from original emissions
+            total_people = sum(len(emision.get('emision', {}).get('insured', [])) for emision in emisiones.values())
+            # emisiones_exitosas is a LIST, not a dict - don't call .values()!
+            successful_people = 0
+            for emision in emisiones_exitosas:
+                if 'emision' in emision and 'emision' in emision['emision'] and 'insured' in emision['emision']['emision']:
+                    successful_people += len(emision['emision']['emision']['insured'])
+                elif 'emision' in emision and 'metadata' in emision['emision']:
+                    successful_people += emision['emision']['metadata'].get('total_asegurados', 0)
+            
+            failed_people = total_people - successful_people  # All people who didn't succeed
             
             stats = {
                 'run_id': f"{time.strftime('%Y%m%d_%H_%M_%S')}",
@@ -180,10 +192,14 @@ def process_si_emission_with_retry(json_path="/app/si_pipeline/emision_unica.jso
                     'fallidas': len(emisiones_fallidas)
                 },
                 'asegurados': {
-                    'total': successful_people + failed_people,
+                    'total': total_people,
                     'exitosos': successful_people,
                     'fallidos': failed_people
                 },
+                'successful': successful_people,  # For email reports
+                'failed': failed_people,          # For email reports
+                'total_processed': total_people,
+                'success_rate': (successful_people / total_people * 100) if total_people > 0 else 0.0,
                 'errores_por_tipo': {},
                 'codigos_validacion': {}
             }
@@ -207,6 +223,16 @@ def run_si_pipeline():
     Run the complete SI pipeline process with individual filtering and retry logic.
     """
     logger.info("🚀 Starting SI pipeline process with individual filtering...")
+    
+    # Check if it's the 1st day of the month
+    from datetime import datetime
+    current_day = datetime.now().day
+    
+    if current_day == 1:
+        logger.info("📅 First day of the month detected - will only run comparison to set baseline, no emissions will be processed")
+        is_first_day = True
+    else:
+        is_first_day = False
     
     try:
         # Clean up previous run data to ensure fresh start
@@ -234,6 +260,12 @@ def run_si_pipeline():
             if file_age < 300:  # 5 minutes
                 logger.info("✅ Comparison already completed by pipeline manager - skipping comparison step")
                 skip_comparison = True
+                
+                # If it's the 1st day and comparison was already done, exit early
+                if is_first_day:
+                    logger.info("✅ First day of month - comparison already completed, baseline set. Skipping emission processing.")
+                    logger.info("📅 Emissions will resume starting from the 2nd day of the month")
+                    return True, {}, [], []
             else:
                 logger.info("⚠️ Comparison file exists but is old - will re-run comparison")
                 skip_comparison = False
@@ -285,6 +317,12 @@ def run_si_pipeline():
                 logger.info("📊 Saved comparison statistics")
             except Exception as e:
                 logger.error(f"❌ Error saving comparison statistics: {e}")
+        
+        # If it's the 1st day of the month, stop here - only comparison needed
+        if is_first_day:
+            logger.info("✅ First day of month - comparison completed, baseline set. Skipping emission processing.")
+            logger.info("📅 Emissions will resume starting from the 2nd day of the month")
+            return True, {}, [], []
         
         # Check if comparison result file exists and has data - use absolute path
         comparison_file = "/app/si_pipeline/Comparador_Humano/exceles/comparison_result.xlsx"
@@ -351,8 +389,33 @@ def run_si_pipeline():
             from datetime import datetime
             
             # Calculate final statistics
-            successful_people = sum(len(emision.get('emision', {}).get('insured', [])) for emision in successful_emissions.values()) if successful_emissions else 0
-            failed_people = len(all_failed_individuals)
+            # Get total people from comparison file
+            import pandas as pd
+            comparison_file = "/app/si_pipeline/Comparador_Humano/exceles/comparison_result.xlsx"
+            try:
+                df = pd.read_excel(comparison_file)
+                total_people = len(df)
+            except:
+                # Fallback: count from successful emissions (which is a LIST)
+                fallback_successful = 0
+                if successful_emissions:
+                    for emision in successful_emissions:
+                        if 'emision' in emision and 'emision' in emision['emision'] and 'insured' in emision['emision']['emision']:
+                            fallback_successful += len(emision['emision']['emision']['insured'])
+                        elif 'emision' in emision and 'metadata' in emision['emision']:
+                            fallback_successful += emision['emision']['metadata'].get('total_asegurados', 0)
+                total_people = fallback_successful + len(all_failed_individuals)
+            
+            # successful_emissions is a LIST (returned from process_si_emission_with_retry), count people properly
+            successful_people = 0
+            if successful_emissions:
+                for emision in successful_emissions:
+                    if 'emision' in emision and 'emision' in emision['emision'] and 'insured' in emision['emision']['emision']:
+                        successful_people += len(emision['emision']['emision']['insured'])
+                    elif 'emision' in emision and 'metadata' in emision['emision']:
+                        successful_people += emision['emision']['metadata'].get('total_asegurados', 0)
+            
+            failed_people = total_people - successful_people  # All people who didn't succeed
             
             stats = {
                 'run_id': f"{datetime.now().strftime('%Y%m%d_%H_%M_%S')}",
@@ -362,10 +425,14 @@ def run_si_pipeline():
                     'fallidas': len(failed_individuals_data)
                 },
                 'asegurados': {
-                    'total': successful_people + failed_people,
+                    'total': total_people,
                     'exitosos': successful_people,
                     'fallidos': failed_people
                 },
+                'successful': successful_people,  # For email reports
+                'failed': failed_people,          # For email reports
+                'total_processed': total_people,
+                'success_rate': (successful_people / total_people * 100) if total_people > 0 else 0.0,
                 'errores_por_tipo': {},
                 'codigos_validacion': {}
             }

@@ -1,0 +1,63 @@
+[
+  {
+    "factura": "202510031615",
+    "emision": {
+      "metadata": {
+        "fecha_emision": "2025-10-03",
+        "total_asegurados": 27,
+        "plan": "VIAJERO MEDICO INTERNACIONAL (SMI)",
+        "estado": "pendiente",
+        "estado_facturacion": "NO ESPECIFICADO"
+      },
+      "emision": {
+        "agency_id": 1,
+        "discount": 0.0,
+        "salesman_id": 10,
+        "products": [
+          {
+            "id": 2
+          }
+        ],
+        "destiny_id": 840,
+        "destination_id": 840,
+        "from": "2025-10-01",
+        "to": "2025-10-31",
+        "terms": "",
+        "insured": [],
+        "addresses": [
+          {
+            "line1": ".",
+            "line2": "",
+            "city": ".",
+            "state": ".",
+            "country_id": 214,
+            "zip": "00000",
+            "phone": [
+              "."
+            ],
+            "email": [
+              "."
+            ],
+            "kind": "Por defecto"
+          }
+        ]
+      }
+    },
+    "error": "No se pudo crear la cotización",
+    "error_details": {
+      "status_code": 415,
+      "validation_codes": [],
+      "validation_messages": [
+        "insured: insured sin identificación"
+      ],
+      "api_response": {
+        "error": true,
+        "message": {
+          "insured": [
+            "insured sin identificación"
+          ]
+        }
+      }
+    }
+  }
+]

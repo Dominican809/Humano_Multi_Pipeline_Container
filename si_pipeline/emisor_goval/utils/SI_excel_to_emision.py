@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 from datetime import datetime
+import calendar
 import re
 import unicodedata
 
@@ -53,10 +54,18 @@ def create_single_emission(excel_path, output_path):
         })
 
     first_row = df.iloc[0]
-    #from_date = parse_date_safe(first_row.get("FEC_INI"), "2025-07-17")
-    #to_date = parse_date_safe(first_row.get("FEC_FIN"), "2025-07-27")
-    from_date = "2025-09-01"
-    to_date = "2025-09-30"
+    
+    # Calculate dynamic date interval for the entire current month
+    now = datetime.now()
+    current_year = now.year
+    current_month = now.month
+    
+    # First day of current month
+    from_date = f"{current_year}-{current_month:02d}-01"
+    
+    # Last day of current month
+    last_day = calendar.monthrange(current_year, current_month)[1]
+    to_date = f"{current_year}-{current_month:02d}-{last_day:02d}"
 
     # Generate a temporary policy number (you might want to adjust this logic)
     policy_number = datetime.now().strftime("%Y%m%d%H%M")

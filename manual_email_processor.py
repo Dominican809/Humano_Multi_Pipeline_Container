@@ -25,8 +25,8 @@ def connect_imap():
     client.select('INBOX')
     return client
 
-def list_trigger_emails(client):
-    """List all trigger emails that match our criteria"""
+def list_trigger_emails(client, limit=20):
+    """List trigger emails that match our criteria (limited to last N emails by default)"""
     print('📧 Searching for trigger emails...')
     
     # Search for emails from today
@@ -36,6 +36,12 @@ def list_trigger_emails(client):
         return []
     
     email_ids = data[0].split()
+    
+    # Limit to the most recent emails (last N)
+    if len(email_ids) > limit:
+        email_ids = email_ids[-limit:]
+        print(f'📊 Limiting search to last {limit} emails (found {len(data[0].split())} total)')
+    
     trigger_emails = []
     
     subject_regex = r'(?i)^asegurados (viajeros|salud internacional)\s*\|\s*\d{4}-\d{2}-\d{2}$'
@@ -136,7 +142,7 @@ def main():
     """Main function"""
     if len(sys.argv) < 2:
         print("Usage:")
-        print("  python manual_email_processor.py list                    # List all trigger emails")
+        print("  python manual_email_processor.py list [limit]           # List trigger emails (default: last 20)")
         print("  python manual_email_processor.py process <uid>          # Process specific email by UID")
         print("  python manual_email_processor.py process-all            # Process all trigger emails")
         print("  python manual_email_processor.py process-latest         # Process latest email of each type")
@@ -148,7 +154,16 @@ def main():
         client = connect_imap()
         
         if command == 'list':
-            emails = list_trigger_emails(client)
+            # Check if limit is provided
+            limit = 20  # default
+            if len(sys.argv) > 2:
+                try:
+                    limit = int(sys.argv[2])
+                except ValueError:
+                    print(f'❌ Invalid limit value: {sys.argv[2]}. Using default limit of 20.')
+                    limit = 20
+            
+            emails = list_trigger_emails(client, limit)
             print(f'\n📊 Found {len(emails)} trigger emails:')
             for i, email_info in enumerate(emails, 1):
                 print(f'{i}. UID: {email_info["uid"]} | {email_info["pipeline_type"].upper()} | {email_info["subject"]} | {email_info["date"]}')

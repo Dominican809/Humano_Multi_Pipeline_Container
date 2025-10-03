@@ -8,6 +8,7 @@ import os
 import json
 import sqlite3
 import pandas as pd
+import re
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -23,6 +24,29 @@ except ImportError:
         return None
     def get_combined_execution_stats() -> Optional[Dict]:
         return None
+
+def extract_date_from_email_subject(email_subject: str) -> Optional[str]:
+    """
+    Extract date from email subject.
+    Format: "Asegurados Salud Internacional | 2025-10-02" or "Asegurados Viajeros | 2025-10-02"
+    
+    Returns:
+        str: Date in format YYYY-MM-DD or None if not found
+    """
+    if not email_subject:
+        return None
+    
+    # Match date pattern like "2025-10-02" or "2025/10/02"
+    date_pattern = r'(\d{4}[-/]\d{2}[-/]\d{2})'
+    match = re.search(date_pattern, email_subject)
+    
+    if match:
+        date_str = match.group(1).replace('/', '-')
+        logger.info(f"📅 Extracted date from email subject: {date_str}")
+        return date_str
+    
+    logger.warning(f"⚠️ Could not extract date from email subject: {email_subject}")
+    return None
 
 class ErrorHandler:
     """Handles errors and generates reports."""
@@ -406,7 +430,7 @@ class ErrorHandler:
         return False
     
     def generate_report(self, stats: dict = None, error_message: str = None, 
-                       failed_individuals: list = None) -> str:
+                       failed_individuals: list = None, comparison_result_json: list = None) -> str:
         """Generate a comprehensive daily report."""
         
         if stats is None:
@@ -466,7 +490,9 @@ class ErrorHandler:
             <div class="header">
                 <h1>📊 Daily Insurance Policy Processing Report</h1>
                 <p><strong>Pipeline:</strong> <span class="pipeline-badge {'si-badge' if stats['pipeline_type'] == 'si' else 'viajeros-badge' if stats['pipeline_type'] == 'viajeros' else ''}">{stats['pipeline_name']}</span></p>
-                <p><strong>Date:</strong> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p>
+                <p><strong>Report Generated:</strong> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p>
+                {f"<p><strong>📅 Source File Date:</strong> <span style='color: #007bff; font-weight: bold;'>{stats.get('source_file_date', 'N/A')}</span></p>" if stats.get('source_file_date') else ''}
+                {f"<p><strong>📧 Email Subject:</strong> {stats.get('email_subject', 'N/A')}</p>" if stats.get('email_subject') else ''}
                 <p class="status">{status}</p>
             </div>
             
@@ -549,6 +575,22 @@ class ErrorHandler:
                 """
             
             html_report += """
+                </div>
+            </div>
+            """
+        
+        # Add comparison result JSON section for SI pipeline
+        if comparison_result_json and stats['pipeline_type'] == 'si':
+            html_report += f"""
+            <div class="section" style="background-color: #fff8dc; border-left: 4px solid #ff8c00;">
+                <h2>📋 SI Comparison Result - People Data (JSON Format)</h2>
+                <p><strong>Total People Found:</strong> {len(comparison_result_json)}</p>
+                <p style="color: #666; font-size: 12px;">This data can be used for manual comparison or debugging.</p>
+                <div style="margin-top: 15px; background-color: #2d2d2d; padding: 15px; border-radius: 5px; overflow-x: auto;">
+                    <pre style="color: #f8f8f2; margin: 0; font-family: 'Courier New', monospace; font-size: 11px; line-height: 1.5;">{json.dumps(comparison_result_json, indent=2, ensure_ascii=False)}</pre>
+                </div>
+                <div style="margin-top: 10px; padding: 10px; background-color: #e8f4f8; border-radius: 5px;">
+                    <strong>💡 Tip:</strong> Copy this JSON data for manual processing or debugging purposes.
                 </div>
             </div>
             """
@@ -917,6 +959,38 @@ class ErrorHandler:
             logger.error(f"Error reading SI failed individuals data: {e}")
             return []
     
+    def get_si_comparison_result_as_json(self):
+        """Get comparison result data from Excel file in JSON format for SI pipeline."""
+        try:
+            comparison_file = Path('/app/si_pipeline/Comparador_Humano/exceles/comparison_result.xlsx')
+            if comparison_file.exists():
+                df = pd.read_excel(comparison_file)
+                if len(df) > 0:
+                    # Convert DataFrame to list of dictionaries
+                    # Convert any datetime objects to strings
+                    people_data = df.to_dict('records')
+                    # Convert datetime columns to string format
+                    for person in people_data:
+                        for key, value in person.items():
+                            if pd.isna(value):
+                                person[key] = None
+                            elif isinstance(value, (pd.Timestamp, datetime)):
+                                person[key] = value.strftime('%Y-%m-%d') if pd.notna(value) else None
+                    
+                    logger.info(f"📊 Loaded {len(people_data)} people from comparison result")
+                    return people_data
+                else:
+                    logger.info("📊 Comparison result file is empty")
+                    return []
+            else:
+                logger.warning(f"⚠️  Comparison result file not found: {comparison_file}")
+                return []
+        except Exception as e:
+            logger.error(f"❌ Error loading comparison result: {e}")
+            import traceback
+            logger.error(traceback.format_exc())
+            return []
+    
     def send_unified_pipeline_report(self, pipeline_type: str, email_subject: str = None, 
                                    error_message: str = None) -> bool:
         """Send a single unified report for a pipeline run with accurate statistics."""
@@ -954,6 +1028,9 @@ class ErrorHandler:
             # Determine pipeline name
             pipeline_name = "Salud Internacional (SI)" if pipeline_type == 'si' else "Viajeros"
             
+            # Extract date from email subject if available
+            source_file_date = extract_date_from_email_subject(email_subject) if email_subject else None
+            
             # Create statistics for email
             stats = {
                 'date': execution_stats.get('run_date', datetime.now().strftime('%Y%m%d')),
@@ -968,26 +1045,35 @@ class ErrorHandler:
                 'excel_extracted': True,
                 'pipeline_executed': True,
                 'run_time': execution_stats.get('run_time', 'Unknown'),
-                'run_timestamp': execution_stats.get('run_timestamp', datetime.now().isoformat())
+                'run_timestamp': execution_stats.get('run_timestamp', datetime.now().isoformat()),
+                'source_file_date': source_file_date,  # Date from email subject
+                'email_subject': email_subject  # Full email subject
             }
             
             # Get failed individuals if available
             failed_individuals = None
+            comparison_result_json = None
+            
             if pipeline_type == 'si':
                 failed_individuals = self.get_si_failed_individuals_data()
+                # Also get comparison result JSON for SI pipeline (all people that were found)
+                comparison_result_json = self.get_si_comparison_result_as_json()
+                if comparison_result_json:
+                    logger.info(f"📊 Including {len(comparison_result_json)} people from comparison result in report")
             else:
                 # For Viajeros and other pipelines, get current process failed data
                 failed_individuals = self.get_current_process_failed_data()
             
             # Generate and send the report
-            return self._send_email_report(stats, error_message, email_subject, failed_individuals)
+            return self._send_email_report(stats, error_message, email_subject, failed_individuals, comparison_result_json)
             
         except Exception as e:
             logger.error(f"❌ Error sending unified {pipeline_type} report: {e}")
             return False
 
     def _send_email_report(self, stats: dict, error_message: str = None, 
-                          email_subject: str = None, failed_individuals: list = None) -> bool:
+                          email_subject: str = None, failed_individuals: list = None, 
+                          comparison_result_json: list = None) -> bool:
         """Send the email report using provided statistics."""
         try:
             # For SI pipeline, automatically get failed individuals if not provided
@@ -997,7 +1083,7 @@ class ErrorHandler:
                     logger.info(f"Found {len(failed_individuals)} failed individuals for SI pipeline")
             
             # Generate the report content
-            html_report = self.generate_report(stats, error_message, failed_individuals)
+            html_report = self.generate_report(stats, error_message, failed_individuals, comparison_result_json)
             
             # Determine subject line with pipeline type and email subject
             pipeline_prefix = f"[{stats['pipeline_name']}] " if stats['pipeline_type'] else ""
@@ -1052,7 +1138,7 @@ class ErrorHandler:
         """Send the daily report via email using daily statistics."""
         try:
             stats = self.get_processing_stats()
-            return self._send_email_report(stats, error_message, email_subject, failed_individuals)
+            return self._send_email_report(stats, error_message, email_subject, failed_individuals, None)
             
         except Exception as e:
             logger.error(f"❌ Error sending report: {e}")
@@ -1098,7 +1184,7 @@ class ErrorHandler:
             }
             
             # Send the report with zero statistics
-            return self._send_email_report(stats, f"ℹ️ {error_message}", None, [])
+            return self._send_email_report(stats, f"ℹ️ {error_message}", None, [], None)
             
         except Exception as e:
             logger.error(f"❌ Error sending no new data report: {e}")

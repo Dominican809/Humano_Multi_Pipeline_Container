@@ -17,7 +17,7 @@ services:
       MATCH_FROM_REGEX: "${MATCH_FROM_REGEX:-(?i)notificacionesinteligenciatecnicaSI@humano\\.com\\.do}"
       
       # Time Restrictions
-      ALLOWED_HOURS: "${ALLOWED_HOURS:-08-20}"
+      ALLOWED_HOURS: "${ALLOWED_HOURS:-00-23}"
       ALLOWED_DAYS: "${ALLOWED_DAYS:-mon,tue,wed,thu,fri,sat,sun}"
       TZ: "${TZ:-America/Santo_Domingo}"
       

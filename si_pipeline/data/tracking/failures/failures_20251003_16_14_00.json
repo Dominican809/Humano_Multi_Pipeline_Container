@@ -1,0 +1,243 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "202510031614",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 27,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "2562538-0",
+              "firstname": "ABRAHAM LUIS",
+              "lastname": "CASTILLO FRANCO",
+              "birthdate": "1984-08-02"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "671907-0",
+              "firstname": "ADELINA",
+              "lastname": "GUERRERO ORTEGA",
+              "birthdate": "1956-08-28"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "3152017-0",
+              "firstname": "ARMANDO JOSE",
+              "lastname": "ESTRELLA LOPEZ",
+              "birthdate": "2002-04-17"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "956133-0",
+              "firstname": "EDGARD AHMED",
+              "lastname": "AWAD KUSHNER",
+              "birthdate": "1951-12-08"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "1087013-0",
+              "firstname": "EDUARDO ARTURO",
+              "lastname": "QUIONES BUTLER",
+              "birthdate": "1977-10-11"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "2147571-4",
+              "firstname": "EMMANUEL EDUARDO",
+              "lastname": "NUNEZ ESTRELLA",
+              "birthdate": "1990-07-28"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "3154843-1",
+              "firstname": "EMMANUELLE",
+              "lastname": "RIVAS GUTIERREZ",
+              "birthdate": "2019-06-16"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "3154843-2",
+              "firstname": "FIORELLA",
+              "lastname": "RIVAS GUTIERREZ",
+              "birthdate": "2022-01-13"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "2434647-0",
+              "firstname": "GISELLE YVETTE",
+              "lastname": "PEREIRA LARRAURI",
+              "birthdate": "1980-10-06"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "1973821-0",
+              "firstname": "ISABEL JOSEFINA",
+              "lastname": "TORAL POKRIELKE",
+              "birthdate": "1955-08-09"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "2147571-2",
+              "firstname": "JOSE EDUARDO",
+              "lastname": "NUEZ JIMENEZ",
+              "birthdate": "1965-11-05"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "1973822-1",
+              "firstname": "JOSE LISANDRO",
+              "lastname": "RIVAS HERNANDEZ",
+              "birthdate": "1966-04-07"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "1973822-2",
+              "firstname": "JOSE LISANDRO",
+              "lastname": "RIVAS REYES",
+              "birthdate": "2002-11-27"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "1973822-0",
+              "firstname": "LUISA ALTAGRACIA",
+              "lastname": "REYES PEROZO",
+              "birthdate": "1964-08-18"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "3036416-0",
+              "firstname": "MANUEL ALEJANDRO",
+              "lastname": "PORTO CASTELLANO",
+              "birthdate": "1985-09-05"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "3154843-3",
+              "firstname": "MARA DANIELA",
+              "lastname": "GUTIERREZ",
+              "birthdate": "1986-12-07"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "1011548-4",
+              "firstname": "MARIA DEL ROCIO",
+              "lastname": "RIVERA OLIVERO",
+              "birthdate": "2018-08-15"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "1011548-0",
+              "firstname": "MARIA ROCIO",
+              "lastname": "OLIVERO TORAL",
+              "birthdate": "1975-10-08"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "1847900-1",
+              "firstname": "MIA SUSANA",
+              "lastname": "PORTORREAL PEREZ",
+              "birthdate": "2009-12-26"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "3154843-0",
+              "firstname": "MIGUEL ANGEL",
+              "lastname": "RIVAS TELLO",
+              "birthdate": "1984-07-30"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "1847900-0",
+              "firstname": "NEURIX DMERICI",
+              "lastname": "PEREZ DAJER",
+              "birthdate": "1977-01-13"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "1847900-2",
+              "firstname": "RAUL ANTONIO",
+              "lastname": "PORTORREAL DURAN",
+              "birthdate": "1977-01-18"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "1011548-2",
+              "firstname": "RODRIGO",
+              "lastname": "RIVERA OLIVERO",
+              "birthdate": "2009-02-10"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "2434647-1",
+              "firstname": "SAID JOSE",
+              "lastname": "ALVAREZ PEREIRA",
+              "birthdate": "2017-02-17"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "1847900-3",
+              "firstname": "SAUL",
+              "lastname": "PORTORREAL PEREZ",
+              "birthdate": "2015-05-03"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "1011548-3",
+              "firstname": "SEBASTIAN",
+              "lastname": "RIVERA OLIVERO",
+              "birthdate": "2011-05-18"
+            },
+            {
+              "ticket_id": "HUM-20CAF-6811",
+              "identity": null,
+              "passport": "2147571-0",
+              "firstname": "YAZMIN LISSELOTTE",
+              "lastname": "ESTRELLA RODRIGUEZ",
+              "birthdate": "1967-03-08"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/3360/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    }
+  ]
+}

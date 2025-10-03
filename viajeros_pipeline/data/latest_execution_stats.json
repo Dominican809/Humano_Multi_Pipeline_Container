@@ -1,18 +1,18 @@
 {
-  "run_id": "20250927_13_56_54",
+  "run_id": "20251003_11_43_20",
   "emisiones": {
-    "total": 14,
-    "exitosas": 0,
-    "fallidas": 14
+    "total": 20,
+    "exitosas": 20,
+    "fallidas": 0
   },
   "asegurados": {
-    "total": 18,
+    "total": 0,
     "exitosos": 0,
-    "fallidos": 18
+    "fallidos": 0
   },
   "successful": 0,
-  "failed": 18,
-  "total_processed": 18,
+  "failed": 0,
+  "total_processed": 0,
   "success_rate": 0.0,
   "errores_por_tipo": {},
   "codigos_validacion": {}

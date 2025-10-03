@@ -1,0 +1,35 @@
+{
+  "emisiones_fallidas": [
+    {
+      "factura": "4639395",
+      "step": "manager",
+      "error": "Error en validación: Error en validación: 417",
+      "num_asegurados": 1,
+      "error_details": {
+        "status_code": 417,
+        "api_response": {
+          "code": 1,
+          "message": "Al menos una persona entre las indicadas posee un producto básico activo",
+          "found": [
+            {
+              "ticket_id": "HUM-032F4-2351",
+              "identity": null,
+              "passport": "3147291-0",
+              "firstname": "ANA JOSEFINA",
+              "lastname": "RODRIGUEZ RODRIGUEZ DE FILPO",
+              "birthdate": "1977-08-07"
+            }
+          ],
+          "uri": "https://humano.goval-tpa.com/api/issue/retail/3319/confirm-insured"
+        },
+        "validation_codes": [
+          1
+        ],
+        "validation_messages": [
+          "1: Validación de asegurados con coberturas activas",
+          "Al menos una persona entre las indicadas posee un producto básico activo"
+        ]
+      }
+    }
+  ]
+}
